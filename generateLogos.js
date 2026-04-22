@@ -6,65 +6,89 @@ const generateLogos = () => {
 
     // Morocco (Botola Pro)
     const moroccoTeams = [
-        { name: "Raja Casablanca", logo: "https://upload.wikimedia.org/wikipedia/fr/5/50/Raja_Club_Athletic_logo.png" },
-        { name: "Wydad AC", logo: "https://upload.wikimedia.org/wikipedia/fr/b/b8/Wydad_Athletic_Club_%28logo%29.png" },
-        { name: "AS FAR", logo: "https://upload.wikimedia.org/wikipedia/fr/5/5b/Association_sportive_des_Forces_arm%C3%A9es_royales_%28football%29_logo.png" },
-        { name: "RS Berkane", logo: "https://upload.wikimedia.org/wikipedia/fr/a/a2/RSB_logo.png" },
-        { name: "Hassania Agadir", logo: "https://upload.wikimedia.org/wikipedia/fr/6/69/Hassania_Union_Sport_d%27Agadir.png" },
-        { name: "Ittihad Tanger", logo: "https://upload.wikimedia.org/wikipedia/fr/e/eb/Ittihad_Riadhi_de_Tanger_%28logo%29.png" },
-        { name: "Maghreb de Fès", logo: "https://upload.wikimedia.org/wikipedia/fr/1/15/Maghreb_AS_logo.png" },
-        { name: "FUS Rabat", logo: "https://upload.wikimedia.org/wikipedia/fr/8/87/Fath_Union_Sport_%28logo%29.png" }
+        { id: 967, name: "Raja Casablanca" },
+        { id: 968, name: "Wydad AC" },
+        { id: 969, name: "AS FAR" },
+        { id: 971, name: "RS Berkane" },
+        { id: 974, name: "Maghreb de Fès" },
+        { id: 972, name: "Ittihad Tanger" },
+        { id: 970, name: "Hassania Agadir" },
+        { id: 973, name: "FUS Rabat" },
+        { id: 975, name: "Moghreb Tétouan" },
+        { id: 977, name: "Renaissance Zemamra" },
+        { id: 978, name: "Union Touarga" },
+        { id: 976, name: "JS Soualem" },
+        { id: 979, name: "SCC Mohammédia" },
+        { id: 981, name: "Chabab Mohammédia" }
     ];
 
     moroccoTeams.forEach(t => {
-        logos.push({ id: idCounter++, name: t.name, logo: t.logo, region: "Morocco" });
+        logos.push({ id: idCounter++, name: t.name, logo: `https://media.api-sports.io/football/teams/${t.id}.png`, region: "Morocco" });
     });
 
     // Europe Top Teams
     const europeTeams = [
-        { name: "Real Madrid", logo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" },
-        { name: "FC Barcelona", logo: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" },
-        { name: "Manchester City", logo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg" },
-        { name: "Manchester United", logo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" },
-        { name: "Liverpool", logo: "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" },
-        { name: "Arsenal", logo: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg" },
-        { name: "Chelsea", logo: "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" },
-        { name: "Tottenham Hotspur", logo: "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg" },
-        { name: "Aston Villa", logo: "https://upload.wikimedia.org/wikipedia/en/f/f9/Aston_Villa_FC_crest_%282016%29.svg" },
-        { name: "Bayern Munich", logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg" },
-        { name: "Borussia Dortmund", logo: "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg" },
-        { name: "Bayer Leverkusen", logo: "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg" },
-        { name: "Paris Saint-Germain", logo: "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" },
-        { name: "Olympique Lyonnais", logo: "https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg" },
-        { name: "Olympique de Marseille", logo: "https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg" },
-        { name: "Juventus", logo: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Juventus_FC_2017_icon_%28black%29.svg" },
-        { name: "AC Milan", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg" },
-        { name: "Inter Milan", logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg" },
-        { name: "Napoli", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli_logo.svg" },
-        { name: "Atletico Madrid", logo: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg" },
-        { name: "Benfica", logo: "https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg" },
-        { name: "FC Porto", logo: "https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg" },
-        { name: "Ajax", logo: "https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg" },
-        { name: "Celtic FC", logo: "https://upload.wikimedia.org/wikipedia/en/3/3a/Celtic_FC_crest.svg" }
+        { id: 541, name: "Real Madrid" },
+        { id: 529, name: "FC Barcelona" },
+        { id: 530, name: "Atletico Madrid" },
+        { id: 50, name: "Manchester City" },
+        { id: 33, name: "Manchester United" },
+        { id: 40, name: "Liverpool" },
+        { id: 42, name: "Arsenal" },
+        { id: 49, name: "Chelsea" },
+        { id: 47, name: "Tottenham Hotspur" },
+        { id: 66, name: "Aston Villa" },
+        { id: 157, name: "Bayern Munich" },
+        { id: 165, name: "Borussia Dortmund" },
+        { id: 168, name: "Bayer Leverkusen" },
+        { id: 85, name: "Paris Saint-Germain" },
+        { id: 81, name: "Olympique de Marseille" },
+        { id: 80, name: "Olympique Lyonnais" },
+        { id: 496, name: "Juventus" },
+        { id: 505, name: "Inter Milan" },
+        { id: 489, name: "AC Milan" },
+        { id: 492, name: "Napoli" },
+        { id: 497, name: "AS Roma" },
+        { id: 194, name: "Ajax" },
+        { id: 197, name: "PSV Eindhoven" },
+        { id: 196, name: "Feyenoord" },
+        { id: 190, name: "Benfica" },
+        { id: 211, name: "FC Porto" },
+        { id: 212, name: "Sporting CP" },
+        { id: 238, name: "Celtic FC" },
+        { id: 239, name: "Rangers FC" }
     ];
 
     europeTeams.forEach(t => {
-        logos.push({ id: idCounter++, name: t.name, logo: t.logo, region: "Europe" });
+        logos.push({ id: idCounter++, name: t.name, logo: `https://media.api-sports.io/football/teams/${t.id}.png`, region: "Europe" });
     });
 
-    // World Teams (Saudi, MLS, etc)
+    // Asia & Americas (Saudi, MLS, etc)
     const worldTeams = [
-        { name: "Al Nassr", logo: "https://upload.wikimedia.org/wikipedia/en/2/2b/Al_Nassr_FC_logo.svg", region: "Asia" },
-        { name: "Al Hilal", logo: "https://upload.wikimedia.org/wikipedia/en/f/fa/Al-Hilal_Saudi_FC_logo.svg", region: "Asia" },
-        { name: "Al Ittihad", logo: "https://upload.wikimedia.org/wikipedia/en/b/bd/Al-Ittihad_Saudi_Club_logo.svg", region: "Asia" },
-        { name: "Inter Miami", logo: "https://upload.wikimedia.org/wikipedia/en/5/5c/Inter_Miami_CF_logo.svg", region: "Americas" }
+        { id: 2901, name: "Al Nassr", region: "Asia" },
+        { id: 2900, name: "Al Hilal", region: "Asia" },
+        { id: 2902, name: "Al Ittihad", region: "Asia" },
+        { id: 2905, name: "Al Ahli", region: "Asia" },
+        { id: 284, name: "Yokohama Marinos", region: "Asia" },
+        { id: 282, name: "Urawa Reds", region: "Asia" },
+        { id: 9568, name: "Inter Miami", region: "Americas" },
+        { id: 1604, name: "LA Galaxy", region: "Americas" },
+        { id: 1602, name: "New York Red Bulls", region: "Americas" },
+        { id: 127, name: "Flamengo", region: "Americas" },
+        { id: 121, name: "Palmeiras", region: "Americas" },
+        { id: 435, name: "River Plate", region: "Americas" },
+        { id: 451, name: "Boca Juniors", region: "Americas" },
+        { id: 1131, name: "Al Ahly", region: "Africa" },
+        { id: 1132, name: "Zamalek", region: "Africa" },
+        { id: 1141, name: "Esperance Tunis", region: "Africa" },
+        { id: 994, name: "Mamelodi Sundowns", region: "Africa" }
     ];
 
     worldTeams.forEach(t => {
-        logos.push({ id: idCounter++, name: t.name, logo: t.logo, region: t.region });
+        logos.push({ id: idCounter++, name: t.name, logo: `https://media.api-sports.io/football/teams/${t.id}.png`, region: t.region });
     });
 
-    // Generate remaining to hit 300+
+    // Generate remaining to hit 320+ (Generic/Fictional)
     const regions = ["Europe", "Asia", "Americas", "Africa"];
     const prefixes = ["FC", "Sporting", "Real", "Atletico", "Union", "United"];
     const cities = ["London", "Tokyo", "Cairo", "Dubai", "Sydney", "Berlin", "Paris", "Seoul", "Rio", "Lisbon", "Riyadh", "Doha", "Casablanca", "Madrid", "Rome"];
@@ -75,7 +99,6 @@ const generateLogos = () => {
         const r = regions[Math.floor(Math.random() * regions.length)];
         const generatedName = `${p} ${c} ${Math.floor(Math.random() * 100)}`;
         
-        // Generic shield logo for auto-generated ones
         const logoUrl = `https://ui-avatars.com/api/?name=${generatedName.replace(' ', '+')}&background=random&color=fff&rounded=true&bold=true`;
         
         logos.push({

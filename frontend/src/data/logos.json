@@ -2,1921 +2,1921 @@
   {
     "id": 1,
     "name": "Raja Casablanca",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/5/50/Raja_Club_Athletic_logo.png",
+    "logo": "https://media.api-sports.io/football/teams/967.png",
     "region": "Morocco"
   },
   {
     "id": 2,
     "name": "Wydad AC",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/b/b8/Wydad_Athletic_Club_%28logo%29.png",
+    "logo": "https://media.api-sports.io/football/teams/968.png",
     "region": "Morocco"
   },
   {
     "id": 3,
     "name": "AS FAR",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/5/5b/Association_sportive_des_Forces_arm%C3%A9es_royales_%28football%29_logo.png",
+    "logo": "https://media.api-sports.io/football/teams/969.png",
     "region": "Morocco"
   },
   {
     "id": 4,
     "name": "RS Berkane",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/a/a2/RSB_logo.png",
+    "logo": "https://media.api-sports.io/football/teams/971.png",
     "region": "Morocco"
   },
   {
     "id": 5,
-    "name": "Hassania Agadir",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/6/69/Hassania_Union_Sport_d%27Agadir.png",
+    "name": "Maghreb de Fès",
+    "logo": "https://media.api-sports.io/football/teams/974.png",
     "region": "Morocco"
   },
   {
     "id": 6,
     "name": "Ittihad Tanger",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/e/eb/Ittihad_Riadhi_de_Tanger_%28logo%29.png",
+    "logo": "https://media.api-sports.io/football/teams/972.png",
     "region": "Morocco"
   },
   {
     "id": 7,
-    "name": "Maghreb de Fès",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/1/15/Maghreb_AS_logo.png",
+    "name": "Hassania Agadir",
+    "logo": "https://media.api-sports.io/football/teams/970.png",
     "region": "Morocco"
   },
   {
     "id": 8,
     "name": "FUS Rabat",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/8/87/Fath_Union_Sport_%28logo%29.png",
+    "logo": "https://media.api-sports.io/football/teams/973.png",
     "region": "Morocco"
   },
   {
     "id": 9,
-    "name": "Real Madrid",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
-    "region": "Europe"
+    "name": "Moghreb Tétouan",
+    "logo": "https://media.api-sports.io/football/teams/975.png",
+    "region": "Morocco"
   },
   {
     "id": 10,
-    "name": "FC Barcelona",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
-    "region": "Europe"
+    "name": "Renaissance Zemamra",
+    "logo": "https://media.api-sports.io/football/teams/977.png",
+    "region": "Morocco"
   },
   {
     "id": 11,
-    "name": "Manchester City",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
-    "region": "Europe"
+    "name": "Union Touarga",
+    "logo": "https://media.api-sports.io/football/teams/978.png",
+    "region": "Morocco"
   },
   {
     "id": 12,
-    "name": "Manchester United",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
-    "region": "Europe"
+    "name": "JS Soualem",
+    "logo": "https://media.api-sports.io/football/teams/976.png",
+    "region": "Morocco"
   },
   {
     "id": 13,
-    "name": "Liverpool",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
-    "region": "Europe"
+    "name": "SCC Mohammédia",
+    "logo": "https://media.api-sports.io/football/teams/979.png",
+    "region": "Morocco"
   },
   {
     "id": 14,
-    "name": "Arsenal",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
-    "region": "Europe"
+    "name": "Chabab Mohammédia",
+    "logo": "https://media.api-sports.io/football/teams/981.png",
+    "region": "Morocco"
   },
   {
     "id": 15,
-    "name": "Chelsea",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+    "name": "Real Madrid",
+    "logo": "https://media.api-sports.io/football/teams/541.png",
     "region": "Europe"
   },
   {
     "id": 16,
-    "name": "Tottenham Hotspur",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+    "name": "FC Barcelona",
+    "logo": "https://media.api-sports.io/football/teams/529.png",
     "region": "Europe"
   },
   {
     "id": 17,
-    "name": "Aston Villa",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/f/f9/Aston_Villa_FC_crest_%282016%29.svg",
+    "name": "Atletico Madrid",
+    "logo": "https://media.api-sports.io/football/teams/530.png",
     "region": "Europe"
   },
   {
     "id": 18,
-    "name": "Bayern Munich",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
+    "name": "Manchester City",
+    "logo": "https://media.api-sports.io/football/teams/50.png",
     "region": "Europe"
   },
   {
     "id": 19,
-    "name": "Borussia Dortmund",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+    "name": "Manchester United",
+    "logo": "https://media.api-sports.io/football/teams/33.png",
     "region": "Europe"
   },
   {
     "id": 20,
-    "name": "Bayer Leverkusen",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg",
+    "name": "Liverpool",
+    "logo": "https://media.api-sports.io/football/teams/40.png",
     "region": "Europe"
   },
   {
     "id": 21,
-    "name": "Paris Saint-Germain",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
+    "name": "Arsenal",
+    "logo": "https://media.api-sports.io/football/teams/42.png",
     "region": "Europe"
   },
   {
     "id": 22,
-    "name": "Olympique Lyonnais",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg",
+    "name": "Chelsea",
+    "logo": "https://media.api-sports.io/football/teams/49.png",
     "region": "Europe"
   },
   {
     "id": 23,
-    "name": "Olympique de Marseille",
-    "logo": "https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg",
+    "name": "Tottenham Hotspur",
+    "logo": "https://media.api-sports.io/football/teams/47.png",
     "region": "Europe"
   },
   {
     "id": 24,
-    "name": "Juventus",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Juventus_FC_2017_icon_%28black%29.svg",
+    "name": "Aston Villa",
+    "logo": "https://media.api-sports.io/football/teams/66.png",
     "region": "Europe"
   },
   {
     "id": 25,
-    "name": "AC Milan",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
+    "name": "Bayern Munich",
+    "logo": "https://media.api-sports.io/football/teams/157.png",
     "region": "Europe"
   },
   {
     "id": 26,
-    "name": "Inter Milan",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
+    "name": "Borussia Dortmund",
+    "logo": "https://media.api-sports.io/football/teams/165.png",
     "region": "Europe"
   },
   {
     "id": 27,
-    "name": "Napoli",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli_logo.svg",
+    "name": "Bayer Leverkusen",
+    "logo": "https://media.api-sports.io/football/teams/168.png",
     "region": "Europe"
   },
   {
     "id": 28,
-    "name": "Atletico Madrid",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
+    "name": "Paris Saint-Germain",
+    "logo": "https://media.api-sports.io/football/teams/85.png",
     "region": "Europe"
   },
   {
     "id": 29,
-    "name": "Benfica",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/a/a2/SL_Benfica_logo.svg",
+    "name": "Olympique de Marseille",
+    "logo": "https://media.api-sports.io/football/teams/81.png",
     "region": "Europe"
   },
   {
     "id": 30,
-    "name": "FC Porto",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg",
+    "name": "Olympique Lyonnais",
+    "logo": "https://media.api-sports.io/football/teams/80.png",
     "region": "Europe"
   },
   {
     "id": 31,
-    "name": "Ajax",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg",
+    "name": "Juventus",
+    "logo": "https://media.api-sports.io/football/teams/496.png",
     "region": "Europe"
   },
   {
     "id": 32,
-    "name": "Celtic FC",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/3/3a/Celtic_FC_crest.svg",
+    "name": "Inter Milan",
+    "logo": "https://media.api-sports.io/football/teams/505.png",
     "region": "Europe"
   },
   {
     "id": 33,
-    "name": "Al Nassr",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/2/2b/Al_Nassr_FC_logo.svg",
-    "region": "Asia"
+    "name": "AC Milan",
+    "logo": "https://media.api-sports.io/football/teams/489.png",
+    "region": "Europe"
   },
   {
     "id": 34,
-    "name": "Al Hilal",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/f/fa/Al-Hilal_Saudi_FC_logo.svg",
-    "region": "Asia"
+    "name": "Napoli",
+    "logo": "https://media.api-sports.io/football/teams/492.png",
+    "region": "Europe"
   },
   {
     "id": 35,
-    "name": "Al Ittihad",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/b/bd/Al-Ittihad_Saudi_Club_logo.svg",
-    "region": "Asia"
+    "name": "AS Roma",
+    "logo": "https://media.api-sports.io/football/teams/497.png",
+    "region": "Europe"
   },
   {
     "id": 36,
-    "name": "Inter Miami",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/Inter_Miami_CF_logo.svg",
-    "region": "Americas"
+    "name": "Ajax",
+    "logo": "https://media.api-sports.io/football/teams/194.png",
+    "region": "Europe"
   },
   {
     "id": 37,
-    "name": "Union Doha 50",
-    "logo": "https://ui-avatars.com/api/?name=Union+Doha 50&background=random&color=fff&rounded=true&bold=true",
+    "name": "PSV Eindhoven",
+    "logo": "https://media.api-sports.io/football/teams/197.png",
     "region": "Europe"
   },
   {
     "id": 38,
-    "name": "United Riyadh 66",
-    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 66&background=random&color=fff&rounded=true&bold=true",
+    "name": "Feyenoord",
+    "logo": "https://media.api-sports.io/football/teams/196.png",
     "region": "Europe"
   },
   {
     "id": 39,
-    "name": "Sporting Rio 67",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 67&background=random&color=fff&rounded=true&bold=true",
+    "name": "Benfica",
+    "logo": "https://media.api-sports.io/football/teams/190.png",
     "region": "Europe"
   },
   {
     "id": 40,
-    "name": "Sporting Casablanca 59",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 59&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Porto",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
     "region": "Europe"
   },
   {
     "id": 41,
-    "name": "Union Paris 47",
-    "logo": "https://ui-avatars.com/api/?name=Union+Paris 47&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 42,
-    "name": "Sporting Doha 75",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Doha 75&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 43,
-    "name": "Union Dubai 54",
-    "logo": "https://ui-avatars.com/api/?name=Union+Dubai 54&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 44,
-    "name": "Real Dubai 50",
-    "logo": "https://ui-avatars.com/api/?name=Real+Dubai 50&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting CP",
+    "logo": "https://media.api-sports.io/football/teams/212.png",
     "region": "Europe"
   },
   {
+    "id": 42,
+    "name": "Celtic FC",
+    "logo": "https://media.api-sports.io/football/teams/238.png",
+    "region": "Europe"
+  },
+  {
+    "id": 43,
+    "name": "Rangers FC",
+    "logo": "https://media.api-sports.io/football/teams/239.png",
+    "region": "Europe"
+  },
+  {
+    "id": 44,
+    "name": "Al Nassr",
+    "logo": "https://media.api-sports.io/football/teams/2901.png",
+    "region": "Asia"
+  },
+  {
     "id": 45,
-    "name": "United Sydney 83",
-    "logo": "https://ui-avatars.com/api/?name=United+Sydney 83&background=random&color=fff&rounded=true&bold=true",
+    "name": "Al Hilal",
+    "logo": "https://media.api-sports.io/football/teams/2900.png",
     "region": "Asia"
   },
   {
     "id": 46,
-    "name": "Real Doha 63",
-    "logo": "https://ui-avatars.com/api/?name=Real+Doha 63&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Al Ittihad",
+    "logo": "https://media.api-sports.io/football/teams/2902.png",
+    "region": "Asia"
   },
   {
     "id": 47,
-    "name": "Atletico Sydney 93",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Sydney 93&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Al Ahli",
+    "logo": "https://media.api-sports.io/football/teams/2905.png",
+    "region": "Asia"
   },
   {
     "id": 48,
-    "name": "Real Seoul 7",
-    "logo": "https://ui-avatars.com/api/?name=Real+Seoul 7&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Yokohama Marinos",
+    "logo": "https://media.api-sports.io/football/teams/284.png",
+    "region": "Asia"
   },
   {
     "id": 49,
-    "name": "Real Casablanca 91",
-    "logo": "https://ui-avatars.com/api/?name=Real+Casablanca 91&background=random&color=fff&rounded=true&bold=true",
+    "name": "Urawa Reds",
+    "logo": "https://media.api-sports.io/football/teams/282.png",
     "region": "Asia"
   },
   {
     "id": 50,
-    "name": "United Rome 54",
-    "logo": "https://ui-avatars.com/api/?name=United+Rome 54&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 51,
-    "name": "United Casablanca 32",
-    "logo": "https://ui-avatars.com/api/?name=United+Casablanca 32&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 52,
-    "name": "FC London 0",
-    "logo": "https://ui-avatars.com/api/?name=FC+London 0&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 53,
-    "name": "United Lisbon 32",
-    "logo": "https://ui-avatars.com/api/?name=United+Lisbon 32&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 54,
-    "name": "Atletico Paris 36",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Paris 36&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 55,
-    "name": "FC Riyadh 81",
-    "logo": "https://ui-avatars.com/api/?name=FC+Riyadh 81&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 56,
-    "name": "Union London 99",
-    "logo": "https://ui-avatars.com/api/?name=Union+London 99&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 57,
-    "name": "United Madrid 84",
-    "logo": "https://ui-avatars.com/api/?name=United+Madrid 84&background=random&color=fff&rounded=true&bold=true",
+    "name": "Inter Miami",
+    "logo": "https://media.api-sports.io/football/teams/9568.png",
     "region": "Americas"
   },
   {
+    "id": 51,
+    "name": "LA Galaxy",
+    "logo": "https://media.api-sports.io/football/teams/1604.png",
+    "region": "Americas"
+  },
+  {
+    "id": 52,
+    "name": "New York Red Bulls",
+    "logo": "https://media.api-sports.io/football/teams/1602.png",
+    "region": "Americas"
+  },
+  {
+    "id": 53,
+    "name": "Flamengo",
+    "logo": "https://media.api-sports.io/football/teams/127.png",
+    "region": "Americas"
+  },
+  {
+    "id": 54,
+    "name": "Palmeiras",
+    "logo": "https://media.api-sports.io/football/teams/121.png",
+    "region": "Americas"
+  },
+  {
+    "id": 55,
+    "name": "River Plate",
+    "logo": "https://media.api-sports.io/football/teams/435.png",
+    "region": "Americas"
+  },
+  {
+    "id": 56,
+    "name": "Boca Juniors",
+    "logo": "https://media.api-sports.io/football/teams/451.png",
+    "region": "Americas"
+  },
+  {
+    "id": 57,
+    "name": "Al Ahly",
+    "logo": "https://media.api-sports.io/football/teams/1131.png",
+    "region": "Africa"
+  },
+  {
     "id": 58,
-    "name": "Atletico Doha 37",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Doha 37&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Zamalek",
+    "logo": "https://media.api-sports.io/football/teams/1132.png",
+    "region": "Africa"
   },
   {
     "id": 59,
-    "name": "Atletico Rome 74",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rome 74&background=random&color=fff&rounded=true&bold=true",
+    "name": "Esperance Tunis",
+    "logo": "https://media.api-sports.io/football/teams/1141.png",
     "region": "Africa"
   },
   {
     "id": 60,
-    "name": "Sporting Madrid 86",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 86&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Mamelodi Sundowns",
+    "logo": "https://media.api-sports.io/football/teams/994.png",
+    "region": "Africa"
   },
   {
     "id": 61,
-    "name": "United Paris 43",
-    "logo": "https://ui-avatars.com/api/?name=United+Paris 43&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Rome 94",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 94&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 62,
-    "name": "United Seoul 33",
-    "logo": "https://ui-avatars.com/api/?name=United+Seoul 33&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Lisbon 68",
+    "logo": "https://ui-avatars.com/api/?name=Union+Lisbon 68&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 63,
-    "name": "Sporting Rio 96",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 96&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico London 32",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+London 32&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 64,
-    "name": "United Doha 89",
-    "logo": "https://ui-avatars.com/api/?name=United+Doha 89&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Tokyo 97",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Tokyo 97&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 65,
-    "name": "Sporting Lisbon 4",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 4&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Union Paris 48",
+    "logo": "https://ui-avatars.com/api/?name=Union+Paris 48&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 66,
-    "name": "Sporting Rome 66",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 66&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Real Lisbon 79",
+    "logo": "https://ui-avatars.com/api/?name=Real+Lisbon 79&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 67,
-    "name": "Sporting Madrid 7",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 7&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Berlin 20",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Berlin 20&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 68,
-    "name": "United Riyadh 14",
-    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 14&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Paris 0",
+    "logo": "https://ui-avatars.com/api/?name=Real+Paris 0&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 69,
-    "name": "Union Tokyo 33",
-    "logo": "https://ui-avatars.com/api/?name=Union+Tokyo 33&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 70,
-    "name": "Real Paris 33",
-    "logo": "https://ui-avatars.com/api/?name=Real+Paris 33&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 71,
-    "name": "Atletico Berlin 64",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Berlin 64&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 72,
-    "name": "Union Rome 44",
-    "logo": "https://ui-avatars.com/api/?name=Union+Rome 44&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 73,
-    "name": "Union Seoul 55",
-    "logo": "https://ui-avatars.com/api/?name=Union+Seoul 55&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 74,
-    "name": "Sporting Casablanca 84",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 84&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 75,
-    "name": "Union Dubai 72",
-    "logo": "https://ui-avatars.com/api/?name=Union+Dubai 72&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Berlin 26",
+    "logo": "https://ui-avatars.com/api/?name=Union+Berlin 26&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
+    "id": 70,
+    "name": "Union Cairo 6",
+    "logo": "https://ui-avatars.com/api/?name=Union+Cairo 6&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 71,
+    "name": "United Casablanca 83",
+    "logo": "https://ui-avatars.com/api/?name=United+Casablanca 83&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 72,
+    "name": "Sporting Rome 95",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 95&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 73,
+    "name": "United Madrid 75",
+    "logo": "https://ui-avatars.com/api/?name=United+Madrid 75&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 74,
+    "name": "United Rome 67",
+    "logo": "https://ui-avatars.com/api/?name=United+Rome 67&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
+    "id": 75,
+    "name": "Atletico Madrid 30",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Madrid 30&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
     "id": 76,
-    "name": "FC Casablanca 87",
-    "logo": "https://ui-avatars.com/api/?name=FC+Casablanca 87&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Paris 11",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Paris 11&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
     "id": 77,
-    "name": "Real Lisbon 66",
-    "logo": "https://ui-avatars.com/api/?name=Real+Lisbon 66&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Union Riyadh 24",
+    "logo": "https://ui-avatars.com/api/?name=Union+Riyadh 24&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 78,
-    "name": "United Riyadh 70",
-    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 70&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 79,
-    "name": "Sporting Dubai 86",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Dubai 86&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Lisbon 74",
+    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 74&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
+    "id": 79,
+    "name": "Union Rio 11",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rio 11&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
     "id": 80,
-    "name": "Union London 99",
-    "logo": "https://ui-avatars.com/api/?name=Union+London 99&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Sporting Madrid 45",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 45&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 81,
-    "name": "Atletico Casablanca 50",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Casablanca 50&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Cairo 62",
+    "logo": "https://ui-avatars.com/api/?name=Real+Cairo 62&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 82,
-    "name": "FC Rome 8",
-    "logo": "https://ui-avatars.com/api/?name=FC+Rome 8&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "United Madrid 42",
+    "logo": "https://ui-avatars.com/api/?name=United+Madrid 42&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 83,
-    "name": "Real Tokyo 90",
-    "logo": "https://ui-avatars.com/api/?name=Real+Tokyo 90&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Sporting Madrid 18",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 18&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 84,
-    "name": "United Seoul 96",
-    "logo": "https://ui-avatars.com/api/?name=United+Seoul 96&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Doha 82",
+    "logo": "https://ui-avatars.com/api/?name=FC+Doha 82&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 85,
-    "name": "Sporting Paris 83",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 83&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 86,
-    "name": "Real Seoul 67",
-    "logo": "https://ui-avatars.com/api/?name=Real+Seoul 67&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Seoul 4",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Seoul 4&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
-    "id": 87,
-    "name": "Real Rio 32",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rio 32&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 88,
-    "name": "Atletico Paris 99",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Paris 99&background=random&color=fff&rounded=true&bold=true",
+    "id": 86,
+    "name": "FC Riyadh 89",
+    "logo": "https://ui-avatars.com/api/?name=FC+Riyadh 89&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
+    "id": 87,
+    "name": "United Cairo 3",
+    "logo": "https://ui-avatars.com/api/?name=United+Cairo 3&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 88,
+    "name": "Union Rome 81",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rome 81&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
     "id": 89,
-    "name": "United Rome 32",
-    "logo": "https://ui-avatars.com/api/?name=United+Rome 32&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Casablanca 61",
+    "logo": "https://ui-avatars.com/api/?name=Union+Casablanca 61&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 90,
-    "name": "Sporting Paris 73",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 73&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "United Rome 80",
+    "logo": "https://ui-avatars.com/api/?name=United+Rome 80&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 91,
-    "name": "Real Madrid 86",
-    "logo": "https://ui-avatars.com/api/?name=Real+Madrid 86&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Rio 99",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 99&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 92,
-    "name": "United Paris 89",
-    "logo": "https://ui-avatars.com/api/?name=United+Paris 89&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 93,
-    "name": "United Lisbon 23",
-    "logo": "https://ui-avatars.com/api/?name=United+Lisbon 23&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 94,
-    "name": "FC Riyadh 40",
-    "logo": "https://ui-avatars.com/api/?name=FC+Riyadh 40&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 95,
-    "name": "United Paris 11",
-    "logo": "https://ui-avatars.com/api/?name=United+Paris 11&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 96,
-    "name": "United Paris 72",
-    "logo": "https://ui-avatars.com/api/?name=United+Paris 72&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Riyadh 32",
+    "logo": "https://ui-avatars.com/api/?name=Real+Riyadh 32&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
-    "id": 97,
-    "name": "Atletico Rio 26",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 26&background=random&color=fff&rounded=true&bold=true",
+    "id": 93,
+    "name": "Union Rio 37",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rio 37&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 94,
+    "name": "Real Cairo 93",
+    "logo": "https://ui-avatars.com/api/?name=Real+Cairo 93&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
+  },
+  {
+    "id": 95,
+    "name": "Atletico Rome 30",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Rome 30&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 96,
+    "name": "Real Berlin 50",
+    "logo": "https://ui-avatars.com/api/?name=Real+Berlin 50&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 97,
+    "name": "Real Dubai 26",
+    "logo": "https://ui-avatars.com/api/?name=Real+Dubai 26&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 98,
-    "name": "Sporting London 59",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+London 59&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Atletico Berlin 78",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Berlin 78&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 99,
-    "name": "Sporting Riyadh 12",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Riyadh 12&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Union Rome 20",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rome 20&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 100,
-    "name": "Sporting Lisbon 5",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 5&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Union Rome 8",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rome 8&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 101,
-    "name": "Sporting Madrid 97",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 97&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Seoul 21",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Seoul 21&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
     "id": 102,
-    "name": "United Riyadh 31",
-    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 31&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Dubai 42",
+    "logo": "https://ui-avatars.com/api/?name=FC+Dubai 42&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 103,
-    "name": "FC Berlin 51",
-    "logo": "https://ui-avatars.com/api/?name=FC+Berlin 51&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Casablanca 52",
+    "logo": "https://ui-avatars.com/api/?name=FC+Casablanca 52&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 104,
-    "name": "Sporting Riyadh 79",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Riyadh 79&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Sporting Dubai 93",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Dubai 93&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 105,
-    "name": "Real Lisbon 66",
-    "logo": "https://ui-avatars.com/api/?name=Real+Lisbon 66&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 106,
-    "name": "FC Madrid 40",
-    "logo": "https://ui-avatars.com/api/?name=FC+Madrid 40&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 107,
-    "name": "United Riyadh 91",
-    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 91&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 108,
-    "name": "Atletico Sydney 61",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Sydney 61&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 109,
-    "name": "Union Dubai 49",
-    "logo": "https://ui-avatars.com/api/?name=Union+Dubai 49&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 110,
-    "name": "Atletico Rome 62",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rome 62&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 111,
-    "name": "Union Madrid 44",
-    "logo": "https://ui-avatars.com/api/?name=Union+Madrid 44&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 112,
-    "name": "Sporting Casablanca 36",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 36&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Lisbon 83",
+    "logo": "https://ui-avatars.com/api/?name=Union+Lisbon 83&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
-    "id": 113,
-    "name": "United Dubai 31",
-    "logo": "https://ui-avatars.com/api/?name=United+Dubai 31&background=random&color=fff&rounded=true&bold=true",
+    "id": 106,
+    "name": "Real Casablanca 1",
+    "logo": "https://ui-avatars.com/api/?name=Real+Casablanca 1&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
+    "id": 107,
+    "name": "Union Rome 18",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rome 18&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 108,
+    "name": "United Doha 31",
+    "logo": "https://ui-avatars.com/api/?name=United+Doha 31&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 109,
+    "name": "Real Cairo 78",
+    "logo": "https://ui-avatars.com/api/?name=Real+Cairo 78&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 110,
+    "name": "FC Paris 72",
+    "logo": "https://ui-avatars.com/api/?name=FC+Paris 72&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 111,
+    "name": "FC Casablanca 94",
+    "logo": "https://ui-avatars.com/api/?name=FC+Casablanca 94&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 112,
+    "name": "Real Casablanca 15",
+    "logo": "https://ui-avatars.com/api/?name=Real+Casablanca 15&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 113,
+    "name": "Union London 94",
+    "logo": "https://ui-avatars.com/api/?name=Union+London 94&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
     "id": 114,
-    "name": "Sporting Sydney 6",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Sydney 6&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Cairo 27",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Cairo 27&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
     "id": 115,
-    "name": "Union Rio 9",
-    "logo": "https://ui-avatars.com/api/?name=Union+Rio 9&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Real Berlin 40",
+    "logo": "https://ui-avatars.com/api/?name=Real+Berlin 40&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 116,
-    "name": "Atletico Berlin 86",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Berlin 86&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Real Doha 26",
+    "logo": "https://ui-avatars.com/api/?name=Real+Doha 26&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 117,
-    "name": "Atletico Tokyo 6",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Tokyo 6&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Atletico Sydney 18",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Sydney 18&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 118,
-    "name": "Atletico Lisbon 11",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Lisbon 11&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Sporting Paris 37",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 37&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 119,
-    "name": "Sporting Rome 86",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 86&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Dubai 34",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Dubai 34&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 120,
-    "name": "Union Sydney 41",
-    "logo": "https://ui-avatars.com/api/?name=Union+Sydney 41&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Riyadh 11",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Riyadh 11&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 121,
-    "name": "Sporting Paris 66",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 66&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "United Riyadh 29",
+    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 29&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 122,
-    "name": "Atletico Rome 85",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rome 85&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Union Sydney 16",
+    "logo": "https://ui-avatars.com/api/?name=Union+Sydney 16&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 123,
-    "name": "United Paris 73",
-    "logo": "https://ui-avatars.com/api/?name=United+Paris 73&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Paris 98",
+    "logo": "https://ui-avatars.com/api/?name=FC+Paris 98&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 124,
-    "name": "Union Cairo 21",
-    "logo": "https://ui-avatars.com/api/?name=Union+Cairo 21&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "United Berlin 44",
+    "logo": "https://ui-avatars.com/api/?name=United+Berlin 44&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 125,
-    "name": "FC Berlin 15",
-    "logo": "https://ui-avatars.com/api/?name=FC+Berlin 15&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 126,
-    "name": "Atletico Lisbon 51",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Lisbon 51&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 127,
-    "name": "FC Cairo 65",
-    "logo": "https://ui-avatars.com/api/?name=FC+Cairo 65&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 128,
-    "name": "FC Dubai 35",
-    "logo": "https://ui-avatars.com/api/?name=FC+Dubai 35&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 129,
-    "name": "Atletico Dubai 15",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Dubai 15&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 130,
-    "name": "Atletico Seoul 52",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Seoul 52&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 131,
-    "name": "Union Madrid 84",
-    "logo": "https://ui-avatars.com/api/?name=Union+Madrid 84&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 132,
-    "name": "Atletico Berlin 4",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Berlin 4&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Rio 58",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rio 58&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
-    "id": 133,
-    "name": "Atletico Riyadh 70",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Riyadh 70&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 134,
-    "name": "Union Lisbon 27",
-    "logo": "https://ui-avatars.com/api/?name=Union+Lisbon 27&background=random&color=fff&rounded=true&bold=true",
+    "id": 126,
+    "name": "Atletico Madrid 35",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Madrid 35&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
-    "id": 135,
-    "name": "Atletico Dubai 12",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Dubai 12&background=random&color=fff&rounded=true&bold=true",
+    "id": 127,
+    "name": "Atletico Rio 65",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 65&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 128,
+    "name": "Union Berlin 57",
+    "logo": "https://ui-avatars.com/api/?name=Union+Berlin 57&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
-    "id": 136,
-    "name": "Union Rio 41",
-    "logo": "https://ui-avatars.com/api/?name=Union+Rio 41&background=random&color=fff&rounded=true&bold=true",
+    "id": 129,
+    "name": "Atletico Casablanca 84",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Casablanca 84&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 130,
+    "name": "Atletico Paris 94",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Paris 94&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 131,
+    "name": "Union Madrid 62",
+    "logo": "https://ui-avatars.com/api/?name=Union+Madrid 62&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 132,
+    "name": "FC Tokyo 22",
+    "logo": "https://ui-avatars.com/api/?name=FC+Tokyo 22&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
+    "id": 133,
+    "name": "United Madrid 88",
+    "logo": "https://ui-avatars.com/api/?name=United+Madrid 88&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
+    "id": 134,
+    "name": "Sporting Cairo 46",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Cairo 46&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 135,
+    "name": "Sporting Casablanca 76",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 76&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 136,
+    "name": "Atletico Rio 99",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 99&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
     "id": 137,
-    "name": "Union Lisbon 53",
-    "logo": "https://ui-avatars.com/api/?name=Union+Lisbon 53&background=random&color=fff&rounded=true&bold=true",
+    "name": "United London 6",
+    "logo": "https://ui-avatars.com/api/?name=United+London 6&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 138,
-    "name": "Atletico London 20",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+London 20&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Tokyo 50",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Tokyo 50&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 139,
-    "name": "Sporting Rio 41",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 41&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 140,
-    "name": "United Tokyo 91",
-    "logo": "https://ui-avatars.com/api/?name=United+Tokyo 91&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Lisbon 26",
+    "logo": "https://ui-avatars.com/api/?name=Real+Lisbon 26&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
+    "id": 140,
+    "name": "Sporting Doha 31",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Doha 31&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
     "id": 141,
-    "name": "United Rio 16",
-    "logo": "https://ui-avatars.com/api/?name=United+Rio 16&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "United Tokyo 35",
+    "logo": "https://ui-avatars.com/api/?name=United+Tokyo 35&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 142,
-    "name": "Sporting Lisbon 50",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 50&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Paris 14",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 14&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
     "id": 143,
-    "name": "Union Dubai 65",
-    "logo": "https://ui-avatars.com/api/?name=Union+Dubai 65&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Cairo 75",
+    "logo": "https://ui-avatars.com/api/?name=FC+Cairo 75&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 144,
-    "name": "FC Madrid 91",
-    "logo": "https://ui-avatars.com/api/?name=FC+Madrid 91&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Lisbon 46",
+    "logo": "https://ui-avatars.com/api/?name=Real+Lisbon 46&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 145,
-    "name": "Union Rome 32",
-    "logo": "https://ui-avatars.com/api/?name=Union+Rome 32&background=random&color=fff&rounded=true&bold=true",
+    "name": "United Dubai 3",
+    "logo": "https://ui-avatars.com/api/?name=United+Dubai 3&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
     "id": 146,
-    "name": "Union Paris 31",
-    "logo": "https://ui-avatars.com/api/?name=Union+Paris 31&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Paris 90",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 90&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
     "id": 147,
-    "name": "Real Dubai 3",
-    "logo": "https://ui-avatars.com/api/?name=Real+Dubai 3&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Rio 17",
+    "logo": "https://ui-avatars.com/api/?name=FC+Rio 17&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 148,
-    "name": "Union Paris 67",
-    "logo": "https://ui-avatars.com/api/?name=Union+Paris 67&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Real London 5",
+    "logo": "https://ui-avatars.com/api/?name=Real+London 5&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 149,
-    "name": "United Dubai 83",
-    "logo": "https://ui-avatars.com/api/?name=United+Dubai 83&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "FC Casablanca 65",
+    "logo": "https://ui-avatars.com/api/?name=FC+Casablanca 65&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 150,
-    "name": "Union Seoul 58",
-    "logo": "https://ui-avatars.com/api/?name=Union+Seoul 58&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Riyadh 38",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Riyadh 38&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 151,
-    "name": "FC Berlin 81",
-    "logo": "https://ui-avatars.com/api/?name=FC+Berlin 81&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 152,
-    "name": "United London 94",
-    "logo": "https://ui-avatars.com/api/?name=United+London 94&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Lisbon 79",
+    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 79&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
-    "id": 153,
-    "name": "Real Rome 4",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rome 4&background=random&color=fff&rounded=true&bold=true",
+    "id": 152,
+    "name": "United Seoul 61",
+    "logo": "https://ui-avatars.com/api/?name=United+Seoul 61&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
+  },
+  {
+    "id": 153,
+    "name": "Atletico Cairo 11",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Cairo 11&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 154,
-    "name": "Sporting Casablanca 23",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 23&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "United Cairo 78",
+    "logo": "https://ui-avatars.com/api/?name=United+Cairo 78&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 155,
-    "name": "Atletico Rio 34",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 34&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Union Paris 97",
+    "logo": "https://ui-avatars.com/api/?name=Union+Paris 97&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 156,
-    "name": "Atletico Tokyo 84",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Tokyo 84&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Dubai 42",
+    "logo": "https://ui-avatars.com/api/?name=FC+Dubai 42&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 157,
-    "name": "Real Rome 95",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rome 95&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Sporting Cairo 10",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Cairo 10&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 158,
-    "name": "Sporting Dubai 28",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Dubai 28&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Sporting Madrid 56",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 56&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 159,
-    "name": "Real Rio 96",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rio 96&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Riyadh 0",
+    "logo": "https://ui-avatars.com/api/?name=FC+Riyadh 0&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 160,
-    "name": "FC Seoul 84",
-    "logo": "https://ui-avatars.com/api/?name=FC+Seoul 84&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Union Seoul 85",
+    "logo": "https://ui-avatars.com/api/?name=Union+Seoul 85&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 161,
-    "name": "Sporting Paris 66",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 66&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Sporting Riyadh 93",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Riyadh 93&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 162,
-    "name": "Real Seoul 4",
-    "logo": "https://ui-avatars.com/api/?name=Real+Seoul 4&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Sydney 52",
+    "logo": "https://ui-avatars.com/api/?name=Union+Sydney 52&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 163,
-    "name": "Real Casablanca 92",
-    "logo": "https://ui-avatars.com/api/?name=Real+Casablanca 92&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Real Dubai 95",
+    "logo": "https://ui-avatars.com/api/?name=Real+Dubai 95&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 164,
-    "name": "United Riyadh 51",
-    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 51&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Atletico Sydney 25",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Sydney 25&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 165,
-    "name": "FC Riyadh 3",
-    "logo": "https://ui-avatars.com/api/?name=FC+Riyadh 3&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Atletico Tokyo 61",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Tokyo 61&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 166,
-    "name": "Atletico Rio 94",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 94&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Tokyo 23",
+    "logo": "https://ui-avatars.com/api/?name=FC+Tokyo 23&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 167,
-    "name": "Sporting Tokyo 94",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Tokyo 94&background=random&color=fff&rounded=true&bold=true",
+    "name": "United Tokyo 27",
+    "logo": "https://ui-avatars.com/api/?name=United+Tokyo 27&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 168,
-    "name": "Atletico Riyadh 8",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Riyadh 8&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 169,
-    "name": "FC London 61",
-    "logo": "https://ui-avatars.com/api/?name=FC+London 61&background=random&color=fff&rounded=true&bold=true",
+    "name": "United Riyadh 77",
+    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 77&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
-    "id": 170,
-    "name": "Sporting Paris 32",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 32&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 171,
-    "name": "Real Dubai 13",
-    "logo": "https://ui-avatars.com/api/?name=Real+Dubai 13&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 172,
-    "name": "Union Casablanca 4",
-    "logo": "https://ui-avatars.com/api/?name=Union+Casablanca 4&background=random&color=fff&rounded=true&bold=true",
+    "id": 169,
+    "name": "Atletico Lisbon 96",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Lisbon 96&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
-    "id": 173,
-    "name": "Sporting Rome 6",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 6&background=random&color=fff&rounded=true&bold=true",
+    "id": 170,
+    "name": "United Lisbon 63",
+    "logo": "https://ui-avatars.com/api/?name=United+Lisbon 63&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
+  },
+  {
+    "id": 171,
+    "name": "United Madrid 23",
+    "logo": "https://ui-avatars.com/api/?name=United+Madrid 23&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 172,
+    "name": "Atletico Casablanca 24",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Casablanca 24&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 173,
+    "name": "Real Doha 40",
+    "logo": "https://ui-avatars.com/api/?name=Real+Doha 40&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 174,
-    "name": "FC Seoul 12",
-    "logo": "https://ui-avatars.com/api/?name=FC+Seoul 12&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "FC Lisbon 81",
+    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 81&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 175,
-    "name": "Union Lisbon 26",
-    "logo": "https://ui-avatars.com/api/?name=Union+Lisbon 26&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Sporting Berlin 16",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Berlin 16&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 176,
-    "name": "United London 47",
-    "logo": "https://ui-avatars.com/api/?name=United+London 47&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "FC London 21",
+    "logo": "https://ui-avatars.com/api/?name=FC+London 21&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 177,
-    "name": "Atletico Rome 88",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rome 88&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Madrid 25",
+    "logo": "https://ui-avatars.com/api/?name=FC+Madrid 25&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
     "id": 178,
-    "name": "Real Rio 27",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rio 27&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Doha 86",
+    "logo": "https://ui-avatars.com/api/?name=FC+Doha 86&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 179,
-    "name": "Union Riyadh 29",
-    "logo": "https://ui-avatars.com/api/?name=Union+Riyadh 29&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "United Sydney 57",
+    "logo": "https://ui-avatars.com/api/?name=United+Sydney 57&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 180,
-    "name": "Real Rio 98",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rio 98&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "FC London 54",
+    "logo": "https://ui-avatars.com/api/?name=FC+London 54&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 181,
-    "name": "Real Doha 9",
-    "logo": "https://ui-avatars.com/api/?name=Real+Doha 9&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "United Madrid 44",
+    "logo": "https://ui-avatars.com/api/?name=United+Madrid 44&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 182,
-    "name": "Atletico Madrid 54",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Madrid 54&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "FC Rome 17",
+    "logo": "https://ui-avatars.com/api/?name=FC+Rome 17&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 183,
-    "name": "Real Rome 81",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rome 81&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 184,
-    "name": "United Casablanca 61",
-    "logo": "https://ui-avatars.com/api/?name=United+Casablanca 61&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 185,
-    "name": "Sporting Riyadh 9",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Riyadh 9&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 186,
-    "name": "Sporting Madrid 96",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 96&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 187,
-    "name": "Atletico Paris 81",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Paris 81&background=random&color=fff&rounded=true&bold=true",
+    "name": "United Casablanca 80",
+    "logo": "https://ui-avatars.com/api/?name=United+Casablanca 80&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
+    "id": 184,
+    "name": "Atletico Sydney 2",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Sydney 2&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 185,
+    "name": "United London 47",
+    "logo": "https://ui-avatars.com/api/?name=United+London 47&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 186,
+    "name": "United London 18",
+    "logo": "https://ui-avatars.com/api/?name=United+London 18&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 187,
+    "name": "Union Rome 57",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rome 57&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
     "id": 188,
-    "name": "FC Doha 61",
-    "logo": "https://ui-avatars.com/api/?name=FC+Doha 61&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Rio 41",
+    "logo": "https://ui-avatars.com/api/?name=FC+Rio 41&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 189,
-    "name": "United Berlin 5",
-    "logo": "https://ui-avatars.com/api/?name=United+Berlin 5&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "FC Sydney 63",
+    "logo": "https://ui-avatars.com/api/?name=FC+Sydney 63&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 190,
-    "name": "Real Sydney 3",
-    "logo": "https://ui-avatars.com/api/?name=Real+Sydney 3&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Union Dubai 63",
+    "logo": "https://ui-avatars.com/api/?name=Union+Dubai 63&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 191,
-    "name": "United Casablanca 60",
-    "logo": "https://ui-avatars.com/api/?name=United+Casablanca 60&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Rio 64",
+    "logo": "https://ui-avatars.com/api/?name=Real+Rio 64&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 192,
-    "name": "Real Sydney 96",
-    "logo": "https://ui-avatars.com/api/?name=Real+Sydney 96&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Union Casablanca 25",
+    "logo": "https://ui-avatars.com/api/?name=Union+Casablanca 25&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 193,
-    "name": "FC Seoul 40",
-    "logo": "https://ui-avatars.com/api/?name=FC+Seoul 40&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Dubai 15",
+    "logo": "https://ui-avatars.com/api/?name=Real+Dubai 15&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 194,
-    "name": "Atletico Lisbon 60",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Lisbon 60&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Atletico Riyadh 64",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Riyadh 64&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 195,
-    "name": "Real Dubai 85",
-    "logo": "https://ui-avatars.com/api/?name=Real+Dubai 85&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Rio 78",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rio 78&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 196,
-    "name": "FC Madrid 26",
-    "logo": "https://ui-avatars.com/api/?name=FC+Madrid 26&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Union Sydney 55",
+    "logo": "https://ui-avatars.com/api/?name=Union+Sydney 55&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 197,
-    "name": "FC Lisbon 39",
-    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 39&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "FC Lisbon 71",
+    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 71&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 198,
-    "name": "Sporting Lisbon 73",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 73&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "FC Tokyo 76",
+    "logo": "https://ui-avatars.com/api/?name=FC+Tokyo 76&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 199,
-    "name": "FC Doha 39",
-    "logo": "https://ui-avatars.com/api/?name=FC+Doha 39&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Tokyo 31",
+    "logo": "https://ui-avatars.com/api/?name=Real+Tokyo 31&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 200,
+    "name": "Union Seoul 80",
+    "logo": "https://ui-avatars.com/api/?name=Union+Seoul 80&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 201,
+    "name": "FC Lisbon 98",
+    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 98&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 202,
+    "name": "Atletico Casablanca 7",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Casablanca 7&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 203,
+    "name": "Union Sydney 7",
+    "logo": "https://ui-avatars.com/api/?name=Union+Sydney 7&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 204,
+    "name": "Sporting Sydney 3",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Sydney 3&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 205,
+    "name": "Sporting Sydney 19",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Sydney 19&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 206,
+    "name": "United Rome 25",
+    "logo": "https://ui-avatars.com/api/?name=United+Rome 25&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 207,
+    "name": "FC Casablanca 83",
+    "logo": "https://ui-avatars.com/api/?name=FC+Casablanca 83&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 208,
+    "name": "Real Doha 61",
+    "logo": "https://ui-avatars.com/api/?name=Real+Doha 61&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 209,
+    "name": "Sporting Casablanca 13",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 13&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
+    "id": 210,
+    "name": "Sporting Lisbon 53",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 53&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 211,
+    "name": "FC Dubai 19",
+    "logo": "https://ui-avatars.com/api/?name=FC+Dubai 19&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
+    "id": 212,
+    "name": "Sporting Rome 17",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 17&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
+    "id": 213,
+    "name": "United London 20",
+    "logo": "https://ui-avatars.com/api/?name=United+London 20&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 214,
+    "name": "United Dubai 99",
+    "logo": "https://ui-avatars.com/api/?name=United+Dubai 99&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 215,
+    "name": "Sporting Berlin 22",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Berlin 22&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 216,
     "name": "FC London 17",
     "logo": "https://ui-avatars.com/api/?name=FC+London 17&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
-    "id": 201,
-    "name": "FC Sydney 73",
-    "logo": "https://ui-avatars.com/api/?name=FC+Sydney 73&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 202,
-    "name": "United Berlin 7",
-    "logo": "https://ui-avatars.com/api/?name=United+Berlin 7&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 203,
-    "name": "FC Rio 72",
-    "logo": "https://ui-avatars.com/api/?name=FC+Rio 72&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 204,
-    "name": "FC Seoul 72",
-    "logo": "https://ui-avatars.com/api/?name=FC+Seoul 72&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 205,
-    "name": "Real Madrid 43",
-    "logo": "https://ui-avatars.com/api/?name=Real+Madrid 43&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 206,
-    "name": "Real Sydney 26",
-    "logo": "https://ui-avatars.com/api/?name=Real+Sydney 26&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 207,
-    "name": "Sporting Dubai 73",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Dubai 73&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 208,
-    "name": "Atletico Paris 85",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Paris 85&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 209,
-    "name": "FC Sydney 25",
-    "logo": "https://ui-avatars.com/api/?name=FC+Sydney 25&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 210,
-    "name": "Union Madrid 70",
-    "logo": "https://ui-avatars.com/api/?name=Union+Madrid 70&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 211,
-    "name": "United Berlin 75",
-    "logo": "https://ui-avatars.com/api/?name=United+Berlin 75&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 212,
-    "name": "Sporting Rio 15",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 15&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 213,
-    "name": "Union Tokyo 71",
-    "logo": "https://ui-avatars.com/api/?name=Union+Tokyo 71&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 214,
-    "name": "Real Berlin 65",
-    "logo": "https://ui-avatars.com/api/?name=Real+Berlin 65&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 215,
-    "name": "United Casablanca 26",
-    "logo": "https://ui-avatars.com/api/?name=United+Casablanca 26&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 216,
-    "name": "FC Rio 44",
-    "logo": "https://ui-avatars.com/api/?name=FC+Rio 44&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
     "id": 217,
-    "name": "Real Berlin 16",
-    "logo": "https://ui-avatars.com/api/?name=Real+Berlin 16&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Riyadh 71",
+    "logo": "https://ui-avatars.com/api/?name=FC+Riyadh 71&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 218,
-    "name": "Real Seoul 44",
-    "logo": "https://ui-avatars.com/api/?name=Real+Seoul 44&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "FC Sydney 62",
+    "logo": "https://ui-avatars.com/api/?name=FC+Sydney 62&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 219,
-    "name": "Sporting Rio 82",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 82&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Dubai 46",
+    "logo": "https://ui-avatars.com/api/?name=FC+Dubai 46&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 220,
-    "name": "Union Doha 77",
-    "logo": "https://ui-avatars.com/api/?name=Union+Doha 77&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Lisbon 50",
+    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 50&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 221,
-    "name": "United Cairo 59",
-    "logo": "https://ui-avatars.com/api/?name=United+Cairo 59&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Atletico Seoul 92",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Seoul 92&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 222,
-    "name": "Real Casablanca 8",
-    "logo": "https://ui-avatars.com/api/?name=Real+Casablanca 8&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Sporting Lisbon 20",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 20&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 223,
-    "name": "Sporting Sydney 62",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Sydney 62&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 224,
-    "name": "Sporting Seoul 55",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Seoul 55&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Cairo 74",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Cairo 74&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
-    "id": 225,
-    "name": "FC Lisbon 12",
-    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 12&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "id": 224,
+    "name": "Atletico London 39",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+London 39&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
-    "id": 226,
-    "name": "FC Sydney 80",
-    "logo": "https://ui-avatars.com/api/?name=FC+Sydney 80&background=random&color=fff&rounded=true&bold=true",
+    "id": 225,
+    "name": "Union Rio 21",
+    "logo": "https://ui-avatars.com/api/?name=Union+Rio 21&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
-    "id": 227,
-    "name": "Sporting Doha 82",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Doha 82&background=random&color=fff&rounded=true&bold=true",
+    "id": 226,
+    "name": "Union Paris 1",
+    "logo": "https://ui-avatars.com/api/?name=Union+Paris 1&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
+    "id": 227,
+    "name": "United Rio 55",
+    "logo": "https://ui-avatars.com/api/?name=United+Rio 55&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
     "id": 228,
-    "name": "United Lisbon 99",
-    "logo": "https://ui-avatars.com/api/?name=United+Lisbon 99&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC London 96",
+    "logo": "https://ui-avatars.com/api/?name=FC+London 96&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 229,
-    "name": "United Cairo 27",
-    "logo": "https://ui-avatars.com/api/?name=United+Cairo 27&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Dubai 66",
+    "logo": "https://ui-avatars.com/api/?name=FC+Dubai 66&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 230,
-    "name": "United Dubai 16",
-    "logo": "https://ui-avatars.com/api/?name=United+Dubai 16&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 231,
-    "name": "Real Tokyo 2",
-    "logo": "https://ui-avatars.com/api/?name=Real+Tokyo 2&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 232,
-    "name": "Atletico Casablanca 2",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Casablanca 2&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 233,
-    "name": "Union Rome 91",
-    "logo": "https://ui-avatars.com/api/?name=Union+Rome 91&background=random&color=fff&rounded=true&bold=true",
+    "name": "United Seoul 64",
+    "logo": "https://ui-avatars.com/api/?name=United+Seoul 64&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
-    "id": 234,
-    "name": "Real Cairo 21",
-    "logo": "https://ui-avatars.com/api/?name=Real+Cairo 21&background=random&color=fff&rounded=true&bold=true",
+    "id": 231,
+    "name": "United Tokyo 20",
+    "logo": "https://ui-avatars.com/api/?name=United+Tokyo 20&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 232,
+    "name": "United Lisbon 87",
+    "logo": "https://ui-avatars.com/api/?name=United+Lisbon 87&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
+  },
+  {
+    "id": 233,
+    "name": "FC Cairo 95",
+    "logo": "https://ui-avatars.com/api/?name=FC+Cairo 95&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
+    "id": 234,
+    "name": "Real Cairo 46",
+    "logo": "https://ui-avatars.com/api/?name=Real+Cairo 46&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 235,
-    "name": "Real Casablanca 60",
-    "logo": "https://ui-avatars.com/api/?name=Real+Casablanca 60&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Real Paris 86",
+    "logo": "https://ui-avatars.com/api/?name=Real+Paris 86&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 236,
-    "name": "Sporting Dubai 29",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Dubai 29&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Real Dubai 41",
+    "logo": "https://ui-avatars.com/api/?name=Real+Dubai 41&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 237,
-    "name": "FC Riyadh 71",
-    "logo": "https://ui-avatars.com/api/?name=FC+Riyadh 71&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Sydney 61",
+    "logo": "https://ui-avatars.com/api/?name=FC+Sydney 61&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 238,
-    "name": "Atletico Paris 70",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Paris 70&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "FC Rio 48",
+    "logo": "https://ui-avatars.com/api/?name=FC+Rio 48&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 239,
-    "name": "Real Seoul 98",
-    "logo": "https://ui-avatars.com/api/?name=Real+Seoul 98&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 240,
-    "name": "Atletico Tokyo 53",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Tokyo 53&background=random&color=fff&rounded=true&bold=true",
+    "name": "United Rio 43",
+    "logo": "https://ui-avatars.com/api/?name=United+Rio 43&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
-    "id": 241,
-    "name": "United Madrid 47",
-    "logo": "https://ui-avatars.com/api/?name=United+Madrid 47&background=random&color=fff&rounded=true&bold=true",
+    "id": 240,
+    "name": "Sporting Rio 93",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 93&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
+    "id": 241,
+    "name": "Real Rome 17",
+    "logo": "https://ui-avatars.com/api/?name=Real+Rome 17&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
     "id": 242,
-    "name": "United Sydney 97",
-    "logo": "https://ui-avatars.com/api/?name=United+Sydney 97&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Cairo 65",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Cairo 65&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 243,
-    "name": "Union Riyadh 97",
-    "logo": "https://ui-avatars.com/api/?name=Union+Riyadh 97&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 244,
-    "name": "Atletico Dubai 60",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Dubai 60&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 245,
-    "name": "Union Tokyo 39",
-    "logo": "https://ui-avatars.com/api/?name=Union+Tokyo 39&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 246,
-    "name": "United Paris 79",
-    "logo": "https://ui-avatars.com/api/?name=United+Paris 79&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 247,
-    "name": "Atletico Cairo 92",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Cairo 92&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 248,
-    "name": "FC Lisbon 99",
-    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 99&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 249,
-    "name": "United Sydney 14",
-    "logo": "https://ui-avatars.com/api/?name=United+Sydney 14&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 250,
-    "name": "Union Paris 94",
-    "logo": "https://ui-avatars.com/api/?name=Union+Paris 94&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Berlin 20",
+    "logo": "https://ui-avatars.com/api/?name=Union+Berlin 20&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
-    "id": 251,
-    "name": "Atletico Rio 89",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 89&background=random&color=fff&rounded=true&bold=true",
+    "id": 244,
+    "name": "Real Cairo 68",
+    "logo": "https://ui-avatars.com/api/?name=Real+Cairo 68&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 245,
+    "name": "Union Berlin 86",
+    "logo": "https://ui-avatars.com/api/?name=Union+Berlin 86&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 246,
+    "name": "Sporting Madrid 12",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 12&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 247,
+    "name": "FC Casablanca 78",
+    "logo": "https://ui-avatars.com/api/?name=FC+Casablanca 78&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 248,
+    "name": "Sporting Lisbon 25",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 25&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
+  },
+  {
+    "id": 249,
+    "name": "Atletico Lisbon 11",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Lisbon 11&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 250,
+    "name": "Real Lisbon 94",
+    "logo": "https://ui-avatars.com/api/?name=Real+Lisbon 94&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 251,
+    "name": "FC Sydney 88",
+    "logo": "https://ui-avatars.com/api/?name=FC+Sydney 88&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 252,
-    "name": "Union London 80",
-    "logo": "https://ui-avatars.com/api/?name=Union+London 80&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Union Berlin 45",
+    "logo": "https://ui-avatars.com/api/?name=Union+Berlin 45&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 253,
-    "name": "United Cairo 84",
-    "logo": "https://ui-avatars.com/api/?name=United+Cairo 84&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Casablanca 32",
+    "logo": "https://ui-avatars.com/api/?name=Union+Casablanca 32&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 254,
-    "name": "United Rio 31",
-    "logo": "https://ui-avatars.com/api/?name=United+Rio 31&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Casablanca 1",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Casablanca 1&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 255,
-    "name": "Union London 95",
-    "logo": "https://ui-avatars.com/api/?name=Union+London 95&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Seoul 16",
+    "logo": "https://ui-avatars.com/api/?name=Union+Seoul 16&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 256,
-    "name": "FC Rome 5",
-    "logo": "https://ui-avatars.com/api/?name=FC+Rome 5&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Paris 35",
+    "logo": "https://ui-avatars.com/api/?name=Real+Paris 35&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 257,
-    "name": "FC Berlin 48",
-    "logo": "https://ui-avatars.com/api/?name=FC+Berlin 48&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Sporting Rome 20",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 20&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 258,
-    "name": "Atletico Cairo 8",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Cairo 8&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 259,
-    "name": "Sporting Berlin 43",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Berlin 43&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 260,
-    "name": "Atletico Dubai 57",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Dubai 57&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Cairo 77",
+    "logo": "https://ui-avatars.com/api/?name=Real+Cairo 77&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
+    "id": 259,
+    "name": "Union Seoul 68",
+    "logo": "https://ui-avatars.com/api/?name=Union+Seoul 68&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 260,
+    "name": "United Dubai 70",
+    "logo": "https://ui-avatars.com/api/?name=United+Dubai 70&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
     "id": 261,
-    "name": "Sporting Rome 42",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 42&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Union Casablanca 68",
+    "logo": "https://ui-avatars.com/api/?name=Union+Casablanca 68&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 262,
-    "name": "FC Casablanca 92",
-    "logo": "https://ui-avatars.com/api/?name=FC+Casablanca 92&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Madrid 87",
+    "logo": "https://ui-avatars.com/api/?name=Real+Madrid 87&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 263,
-    "name": "Sporting Doha 94",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Doha 94&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
-  },
-  {
-    "id": 264,
-    "name": "Real Berlin 88",
-    "logo": "https://ui-avatars.com/api/?name=Real+Berlin 88&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Madrid 20",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Madrid 20&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
+    "id": 264,
+    "name": "Atletico Riyadh 19",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Riyadh 19&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
     "id": 265,
-    "name": "FC Paris 20",
-    "logo": "https://ui-avatars.com/api/?name=FC+Paris 20&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Paris 3",
+    "logo": "https://ui-avatars.com/api/?name=Real+Paris 3&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 266,
-    "name": "Sporting Rome 41",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 41&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 267,
-    "name": "Sporting Madrid 79",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Madrid 79&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 268,
-    "name": "Atletico Paris 8",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Paris 8&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico London 12",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+London 12&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
+    "id": 267,
+    "name": "FC Tokyo 37",
+    "logo": "https://ui-avatars.com/api/?name=FC+Tokyo 37&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
+  },
+  {
+    "id": 268,
+    "name": "Union London 99",
+    "logo": "https://ui-avatars.com/api/?name=Union+London 99&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
     "id": 269,
-    "name": "Atletico Tokyo 11",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Tokyo 11&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico London 58",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+London 58&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 270,
-    "name": "Atletico London 59",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+London 59&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Cairo 41",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Cairo 41&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 271,
-    "name": "Sporting Cairo 29",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Cairo 29&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 272,
-    "name": "United Paris 61",
-    "logo": "https://ui-avatars.com/api/?name=United+Paris 61&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 273,
-    "name": "Real London 0",
-    "logo": "https://ui-avatars.com/api/?name=Real+London 0&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
-  },
-  {
-    "id": 274,
-    "name": "Atletico Dubai 19",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Dubai 19&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 275,
-    "name": "Atletico Rio 34",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 34&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Madrid 33",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Madrid 33&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
-    "id": 276,
-    "name": "United Rio 79",
-    "logo": "https://ui-avatars.com/api/?name=United+Rio 79&background=random&color=fff&rounded=true&bold=true",
+    "id": 272,
+    "name": "United Lisbon 75",
+    "logo": "https://ui-avatars.com/api/?name=United+Lisbon 75&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
-    "id": 277,
-    "name": "United Tokyo 42",
-    "logo": "https://ui-avatars.com/api/?name=United+Tokyo 42&background=random&color=fff&rounded=true&bold=true",
+    "id": 273,
+    "name": "Real Rio 94",
+    "logo": "https://ui-avatars.com/api/?name=Real+Rio 94&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
+  },
+  {
+    "id": 274,
+    "name": "United Riyadh 55",
+    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 55&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 275,
+    "name": "Atletico Seoul 53",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Seoul 53&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
+    "id": 276,
+    "name": "Sporting Casablanca 57",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 57&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
+    "id": 277,
+    "name": "United Seoul 30",
+    "logo": "https://ui-avatars.com/api/?name=United+Seoul 30&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
     "id": 278,
-    "name": "Sporting Casablanca 64",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 64&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Cairo 27",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Cairo 27&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 279,
-    "name": "Atletico Casablanca 12",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Casablanca 12&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Real Doha 8",
+    "logo": "https://ui-avatars.com/api/?name=Real+Doha 8&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 280,
-    "name": "Atletico Dubai 8",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Dubai 8&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Lisbon 4",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Lisbon 4&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 281,
-    "name": "Union Rome 40",
-    "logo": "https://ui-avatars.com/api/?name=Union+Rome 40&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "United Doha 50",
+    "logo": "https://ui-avatars.com/api/?name=United+Doha 50&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 282,
-    "name": "FC Doha 49",
-    "logo": "https://ui-avatars.com/api/?name=FC+Doha 49&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "United Paris 46",
+    "logo": "https://ui-avatars.com/api/?name=United+Paris 46&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 283,
-    "name": "Sporting Dubai 86",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Dubai 86&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC Cairo 71",
+    "logo": "https://ui-avatars.com/api/?name=FC+Cairo 71&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 284,
-    "name": "Atletico Cairo 7",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Cairo 7&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Sporting Rio 78",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 78&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 285,
-    "name": "Real Seoul 46",
-    "logo": "https://ui-avatars.com/api/?name=Real+Seoul 46&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "United Madrid 27",
+    "logo": "https://ui-avatars.com/api/?name=United+Madrid 27&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 286,
-    "name": "FC Paris 48",
-    "logo": "https://ui-avatars.com/api/?name=FC+Paris 48&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Sporting Rio 51",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 51&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 287,
-    "name": "Sporting Doha 56",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Doha 56&background=random&color=fff&rounded=true&bold=true",
+    "name": "Union Riyadh 51",
+    "logo": "https://ui-avatars.com/api/?name=Union+Riyadh 51&background=random&color=fff&rounded=true&bold=true",
     "region": "Asia"
   },
   {
     "id": 288,
-    "name": "United Tokyo 40",
-    "logo": "https://ui-avatars.com/api/?name=United+Tokyo 40&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Riyadh 56",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Riyadh 56&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 289,
-    "name": "Atletico Dubai 17",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Dubai 17&background=random&color=fff&rounded=true&bold=true",
+    "name": "United Madrid 16",
+    "logo": "https://ui-avatars.com/api/?name=United+Madrid 16&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 290,
-    "name": "FC Sydney 91",
-    "logo": "https://ui-avatars.com/api/?name=FC+Sydney 91&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Sporting Casablanca 36",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Casablanca 36&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 291,
-    "name": "FC Dubai 48",
-    "logo": "https://ui-avatars.com/api/?name=FC+Dubai 48&background=random&color=fff&rounded=true&bold=true",
+    "name": "Sporting Lisbon 12",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 12&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 292,
-    "name": "FC Casablanca 5",
-    "logo": "https://ui-avatars.com/api/?name=FC+Casablanca 5&background=random&color=fff&rounded=true&bold=true",
+    "name": "FC London 11",
+    "logo": "https://ui-avatars.com/api/?name=FC+London 11&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 293,
-    "name": "FC Lisbon 99",
-    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 99&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "United Cairo 83",
+    "logo": "https://ui-avatars.com/api/?name=United+Cairo 83&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 294,
-    "name": "FC Madrid 45",
-    "logo": "https://ui-avatars.com/api/?name=FC+Madrid 45&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Berlin 82",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Berlin 82&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 295,
-    "name": "Sporting Berlin 44",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Berlin 44&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
-  },
-  {
-    "id": 296,
-    "name": "FC Berlin 39",
-    "logo": "https://ui-avatars.com/api/?name=FC+Berlin 39&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Rome 58",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Rome 58&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
+    "id": 296,
+    "name": "FC Doha 13",
+    "logo": "https://ui-avatars.com/api/?name=FC+Doha 13&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
     "id": 297,
-    "name": "Union Riyadh 39",
-    "logo": "https://ui-avatars.com/api/?name=Union+Riyadh 39&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Sporting Rio 87",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Rio 87&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 298,
-    "name": "Real Rio 87",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rio 87&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico Riyadh 77",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Riyadh 77&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 299,
-    "name": "United Paris 58",
-    "logo": "https://ui-avatars.com/api/?name=United+Paris 58&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Atletico Berlin 40",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Berlin 40&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 300,
-    "name": "FC Paris 52",
-    "logo": "https://ui-avatars.com/api/?name=FC+Paris 52&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "United Dubai 28",
+    "logo": "https://ui-avatars.com/api/?name=United+Dubai 28&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 301,
-    "name": "Atletico Riyadh 35",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Riyadh 35&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Real Sydney 72",
+    "logo": "https://ui-avatars.com/api/?name=Real+Sydney 72&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 302,
-    "name": "Union Riyadh 14",
-    "logo": "https://ui-avatars.com/api/?name=Union+Riyadh 14&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Berlin 69",
+    "logo": "https://ui-avatars.com/api/?name=Real+Berlin 69&background=random&color=fff&rounded=true&bold=true",
     "region": "Europe"
   },
   {
     "id": 303,
-    "name": "Sporting Lisbon 58",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Lisbon 58&background=random&color=fff&rounded=true&bold=true",
-    "region": "Africa"
+    "name": "Atletico Sydney 85",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Sydney 85&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 304,
-    "name": "United Sydney 26",
-    "logo": "https://ui-avatars.com/api/?name=United+Sydney 26&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "FC Lisbon 89",
+    "logo": "https://ui-avatars.com/api/?name=FC+Lisbon 89&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 305,
-    "name": "FC Rio 88",
-    "logo": "https://ui-avatars.com/api/?name=FC+Rio 88&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Atletico Tokyo 44",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Tokyo 44&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 306,
-    "name": "FC Doha 84",
-    "logo": "https://ui-avatars.com/api/?name=FC+Doha 84&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Real Rome 85",
+    "logo": "https://ui-avatars.com/api/?name=Real+Rome 85&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 307,
-    "name": "Sporting Dubai 80",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Dubai 80&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Atletico Doha 53",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Doha 53&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 308,
-    "name": "Union Dubai 17",
-    "logo": "https://ui-avatars.com/api/?name=Union+Dubai 17&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Atletico Rio 63",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+Rio 63&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 309,
-    "name": "Real Tokyo 27",
-    "logo": "https://ui-avatars.com/api/?name=Real+Tokyo 27&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "United Sydney 18",
+    "logo": "https://ui-avatars.com/api/?name=United+Sydney 18&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 310,
-    "name": "Real London 70",
-    "logo": "https://ui-avatars.com/api/?name=Real+London 70&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "FC Paris 92",
+    "logo": "https://ui-avatars.com/api/?name=FC+Paris 92&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
   },
   {
     "id": 311,
-    "name": "Union Rio 39",
-    "logo": "https://ui-avatars.com/api/?name=Union+Rio 39&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "FC Rio 68",
+    "logo": "https://ui-avatars.com/api/?name=FC+Rio 68&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   },
   {
     "id": 312,
-    "name": "Atletico Lisbon 69",
-    "logo": "https://ui-avatars.com/api/?name=Atletico+Lisbon 69&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 313,
-    "name": "Sporting Seoul 18",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Seoul 18&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
-  },
-  {
-    "id": 314,
-    "name": "FC Berlin 18",
-    "logo": "https://ui-avatars.com/api/?name=FC+Berlin 18&background=random&color=fff&rounded=true&bold=true",
+    "name": "Real Lisbon 77",
+    "logo": "https://ui-avatars.com/api/?name=Real+Lisbon 77&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
+    "id": 313,
+    "name": "United Doha 65",
+    "logo": "https://ui-avatars.com/api/?name=United+Doha 65&background=random&color=fff&rounded=true&bold=true",
+    "region": "Africa"
+  },
+  {
+    "id": 314,
+    "name": "Sporting Tokyo 23",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Tokyo 23&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
+  },
+  {
     "id": 315,
-    "name": "Sporting Rome 86",
-    "logo": "https://ui-avatars.com/api/?name=Sporting+Rome 86&background=random&color=fff&rounded=true&bold=true",
+    "name": "United Riyadh 1",
+    "logo": "https://ui-avatars.com/api/?name=United+Riyadh 1&background=random&color=fff&rounded=true&bold=true",
     "region": "Americas"
   },
   {
     "id": 316,
-    "name": "United Berlin 52",
-    "logo": "https://ui-avatars.com/api/?name=United+Berlin 52&background=random&color=fff&rounded=true&bold=true",
-    "region": "Americas"
+    "name": "Union Riyadh 3",
+    "logo": "https://ui-avatars.com/api/?name=Union+Riyadh 3&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 317,
-    "name": "United Madrid 6",
-    "logo": "https://ui-avatars.com/api/?name=United+Madrid 6&background=random&color=fff&rounded=true&bold=true",
+    "name": "Atletico London 31",
+    "logo": "https://ui-avatars.com/api/?name=Atletico+London 31&background=random&color=fff&rounded=true&bold=true",
     "region": "Africa"
   },
   {
     "id": 318,
-    "name": "Real Rome 9",
-    "logo": "https://ui-avatars.com/api/?name=Real+Rome 9&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "United Dubai 93",
+    "logo": "https://ui-avatars.com/api/?name=United+Dubai 93&background=random&color=fff&rounded=true&bold=true",
+    "region": "Americas"
   },
   {
     "id": 319,
-    "name": "Union Seoul 57",
-    "logo": "https://ui-avatars.com/api/?name=Union+Seoul 57&background=random&color=fff&rounded=true&bold=true",
-    "region": "Asia"
+    "name": "Union Lisbon 41",
+    "logo": "https://ui-avatars.com/api/?name=Union+Lisbon 41&background=random&color=fff&rounded=true&bold=true",
+    "region": "Europe"
   },
   {
     "id": 320,
-    "name": "United Tokyo 16",
-    "logo": "https://ui-avatars.com/api/?name=United+Tokyo 16&background=random&color=fff&rounded=true&bold=true",
-    "region": "Europe"
+    "name": "Sporting Paris 1",
+    "logo": "https://ui-avatars.com/api/?name=Sporting+Paris 1&background=random&color=fff&rounded=true&bold=true",
+    "region": "Asia"
   }
 ]
