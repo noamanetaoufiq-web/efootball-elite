@@ -6,7 +6,7 @@ const generateLogos = () => {
 
     // Morocco (Botola Pro)
     const moroccoTeams = [
-        { id: 967, name: "Raja Casablanca" },
+        { id: 967, name: "Raja Casablanca", logo: "https://images.seeklogo.com/logo-png/25/1/raja-club-athletic-rca-logo-png_seeklogo-256064.png" },
         { id: 968, name: "Wydad AC" },
         { id: 969, name: "AS FAR" },
         { id: 971, name: "RS Berkane" },
@@ -23,7 +23,12 @@ const generateLogos = () => {
     ];
 
     moroccoTeams.forEach(t => {
-        logos.push({ id: idCounter++, name: t.name, logo: `https://media.api-sports.io/football/teams/${t.id}.png`, region: "Morocco" });
+        logos.push({ 
+            id: idCounter++, 
+            name: t.name, 
+            logo: t.logo || `https://media.api-sports.io/football/teams/${t.id}.png`, 
+            region: "Morocco" 
+        });
     });
 
     // Europe Top Teams
