@@ -16,6 +16,7 @@ const EventDetails = () => {
     const [copied, setCopied] = useState(false);
     const [loading, setLoading] = useState(true);
     const [activeTab, setActiveTab] = useState('standings');
+    const [matchViewMode, setMatchViewMode] = useState('next'); // 'next' or 'all'
 
     const fetchData = async () => {
         try {
@@ -152,6 +153,27 @@ const EventDetails = () => {
                             </button>
                         </div>
 
+                        {activeTab === 'matches' && (
+                            <div className="flex justify-center gap-4 mb-6">
+                                <button 
+                                    onClick={() => setMatchViewMode('next')}
+                                    className={`px-4 py-1.5 rounded-full text-[9px] font-bold tracking-widest uppercase transition-all border ${
+                                        matchViewMode === 'next' ? 'bg-ef-gold/20 border-ef-gold text-ef-gold' : 'border-white/5 text-slate-500 hover:text-white'
+                                    }`}
+                                >
+                                    Focus: Next Match
+                                </button>
+                                <button 
+                                    onClick={() => setMatchViewMode('all')}
+                                    className={`px-4 py-1.5 rounded-full text-[9px] font-bold tracking-widest uppercase transition-all border ${
+                                        matchViewMode === 'all' ? 'bg-white/10 border-white/20 text-white' : 'border-white/5 text-slate-500 hover:text-white'
+                                    }`}
+                                >
+                                    View History
+                                </button>
+                            </div>
+                        )}
+
                         <motion.div
                             key={activeTab}
                             initial={{ opacity: 0, y: 10 }}
@@ -165,6 +187,7 @@ const EventDetails = () => {
                                     matches={matches} 
                                     onMatchUpdated={fetchData} 
                                     isOwner={isOwner}
+                                    showOnlyNext={matchViewMode === 'next'}
                                 />
                             )}
                         </motion.div>

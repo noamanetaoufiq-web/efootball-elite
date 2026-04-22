@@ -76,6 +76,15 @@ router.post('/join', (req, res) => {
     res.json(tournament);
 });
 
+// @route   GET /api/tournaments/user/:userId
+router.get('/user/:userId', (req, res) => {
+    const { userId } = req.params;
+    const userTournaments = db.tournaments.filter(t => 
+        t.participants.some(p => p._id === userId)
+    );
+    res.json(userTournaments);
+});
+
 // @route   GET /api/tournaments/:joinCode
 router.get('/:joinCode', (req, res) => {
     const tournament = db.tournaments.find(t => t.joinCode === req.params.joinCode.toUpperCase());

@@ -3,7 +3,7 @@ import { updateMatchScore } from '../api';
 import { motion } from 'framer-motion';
 import { Swords, Check, Edit2, Shield, Lock } from 'lucide-react';
 
-const MatchList = ({ matches, onMatchUpdated, isOwner }) => {
+const MatchList = ({ matches, onMatchUpdated, isOwner, showOnlyNext }) => {
     const [editingMatch, setEditingMatch] = useState(null);
     const [scores, setScores] = useState({ home: 0, away: 0 });
 
@@ -26,9 +26,23 @@ const MatchList = ({ matches, onMatchUpdated, isOwner }) => {
         );
     }
 
+    // Filter for sequential match view
+    const displayedMatches = showOnlyNext 
+        ? [matches.find(m => m.status === 'pending')].filter(Boolean)
+        : matches;
+
+    if (showOnlyNext && displayedMatches.length === 0) {
+        return (
+            <div className="py-20 flex flex-col items-center justify-center glass-panel opacity-50 bg-ef-pitch/5 border-ef-pitch-light">
+                <Check size={48} className="mb-4 text-ef-pitch-light" />
+                <p className="font-orbitron text-[10px] tracking-widest uppercase text-slate-400">All matches completed</p>
+            </div>
+        );
+    }
+
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {matches.map((match, idx) => (
+            {displayedMatches.map((match, idx) => (
                 <motion.div
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}

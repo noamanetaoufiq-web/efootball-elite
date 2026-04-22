@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Trophy, Plus, Search, LogOut } from 'lucide-react';
+import { Trophy, Plus, Search, LogOut, ArrowRight, Activity } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { createTournament, joinTournament } from '../api';
+import { createTournament, joinTournament, getUserTournaments } from '../api';
 
 const Hub = () => {
     const navigate = useNavigate();
@@ -10,6 +10,8 @@ const Hub = () => {
     const [joinCode, setJoinCode] = useState('');
     const [creating, setCreating] = useState(false);
     const [joining, setJoining] = useState(false);
+    const [myTournaments, setMyTournaments] = useState([]);
+    const [loadingTournaments, setLoadingTournaments] = useState(true);
     
     const [newEvent, setNewEvent] = useState({
         name: '',
@@ -21,9 +23,22 @@ const Hub = () => {
         if (!saved) {
             navigate('/');
         } else {
-            setProfile(JSON.parse(saved));
+            const user = JSON.parse(saved);
+            setProfile(user);
+            fetchMyTournaments(user._id);
         }
     }, [navigate]);
+
+    const fetchMyTournaments = async (userId) => {
+        try {
+            const res = await getUserTournaments(userId);
+            setMyTournaments(res.data);
+        } catch (err) {
+            console.error('Failed to fetch tournaments', err);
+        } finally {
+            setLoadingTournaments(false);
+        }
+    };
 
     const handleCreate = async (e) => {
         e.preventDefault();
@@ -163,6 +178,74 @@ const Hub = () => {
                     </form>
                 </motion.div>
             </main>
+
+            {/* MY ACTIVE ROOMS */}
+            <section className="relative z-10 max-w-5xl mx-auto mt-12 pb-20">
+                <div className="flex items-center gap-3 mb-6">
+                    <div className="p-2 bg-ef-blue/20 rounded-lg text-ef-light-blue">
+                        <Trophy size={20} />
+                    </div>
+                    <h2 className="text-sm font-black text-white uppercase tracking-[0.2em]">MY ACTIVE ROOMS</h2>
+                </div>
+
+                {loadingTournaments ? (
+                    <div className="flex gap-4 overflow-x-auto pb-4">
+                        {[1, 2].map(i => (
+                            <div key={i} className="min-w-[280px] h-32 bg-white/5 animate-pulse rounded-2xl border border-white/5"></div>
+                        ))}
+                    </div>
+                ) : myTournaments.length > 0 ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        {myTournaments.map((t, idx) => (
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: idx * 0.1 }}
+                                key={t._id}
+                                onClick={() => navigate(`/event/${t.joinCode}`)}
+                                className="glass-panel p-5 cursor-pointer group hover:border-ef-blue transition-all relative overflow-hidden"
+                            >
+                                <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                                    <Trophy size={40} className="text-ef-blue" />
+                                </div>
+                                <div className="flex justify-between items-start mb-4">
+                                    <div>
+                                        <h3 className="text-white font-black uppercase text-sm truncate pr-8">{t.name}</h3>
+                                        <div className="flex items-center gap-2 mt-1">
+                                            <span className={`w-1.5 h-1.5 rounded-full ${t.status === 'open' ? 'bg-ef-gold animate-pulse' : 'bg-ef-pitch-light'}`}></span>
+                                            <span className="text-[8px] text-slate-400 font-bold uppercase tracking-widest">{t.status}</span>
+                                        </div>
+                                    </div>
+                                    <div className="bg-ef-navy/50 px-2 py-1 rounded text-[10px] font-orbitron text-white border border-white/5">
+                                        {t.joinCode}
+                                    </div>
+                                </div>
+                                
+                                <div className="flex items-center justify-between mt-6">
+                                    <div className="flex -space-x-2">
+                                        {t.participants.slice(0, 3).map((p, i) => (
+                                            <img key={i} src={p.teamLogo} className="w-6 h-6 rounded-full border border-ef-dark bg-ef-card object-contain" alt="" />
+                                        ))}
+                                        {t.participants.length > 3 && (
+                                            <div className="w-6 h-6 rounded-full bg-ef-navy border border-ef-dark flex items-center justify-center text-[8px] text-white font-bold">
+                                                +{t.participants.length - 3}
+                                            </div>
+                                        )}
+                                    </div>
+                                    <div className="text-ef-light-blue group-hover:translate-x-1 transition-transform">
+                                        <ArrowRight size={16} />
+                                    </div>
+                                </div>
+                            </motion.div>
+                        ))}
+                    </div>
+                ) : (
+                    <div className="glass-panel p-10 text-center border-dashed border-white/10 opacity-50">
+                        <Activity size={32} className="mx-auto mb-4 text-slate-600" />
+                        <p className="text-[10px] font-orbitron uppercase tracking-widest text-slate-400">No active rooms found</p>
+                    </div>
+                )}
+            </section>
         </div>
     );
 };
