@@ -10,7 +10,7 @@ export const registerPlayer = (userData) => api.post('/users/register', userData
 export const getTournamentByCode = (joinCode) => api.get(`/tournaments/${joinCode}`);
 export const getUserTournaments = (userId) => api.get(`/tournaments/user/${userId}`);
 export const createTournament = (data) => api.post('/tournaments', data);
-export const joinTournament = (joinCode, userId) => api.post(`/tournaments/join`, { joinCode, userId });
+export const joinTournament = (joinCode, userId, userProfile) => api.post(`/tournaments/join`, { joinCode, userId, userProfile });
 export const getMatches = (tournamentId) => api.get(`/matches/tournament/${tournamentId}`);
 export const updateMatchScore = (matchId, score1, score2) => api.put(`/matches/${matchId}`, { score1, score2 }); 
 export const getStandings = (tournamentId) => api.get(`/matches/tournament/${tournamentId}/standings`);

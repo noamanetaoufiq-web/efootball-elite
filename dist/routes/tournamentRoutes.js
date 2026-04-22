@@ -9,11 +9,17 @@ const generateJoinCode = () => {
 
 // @route   POST /api/tournaments
 router.post('/', (req, res) => {
-    const { name, maxPlayers, ownerId } = req.body;
+    const { name, maxPlayers, ownerId, ownerProfile } = req.body;
     const joinCode = generateJoinCode();
     
-    // Auto-join owner and keep full user object ref instead of just ID for simple frontend display
-    const ownerObj = db.users.find(u => u._id === ownerId);
+    // Auto-join owner and keep full user object ref
+    let ownerObj = db.users.find(u => u._id === ownerId);
+
+    // Lazy registration for owner if missing from memory
+    if (!ownerObj && ownerProfile) {
+        ownerObj = ownerProfile;
+        db.users.push(ownerObj);
+    }
 
     const tournament = {
         _id: Date.now().toString(),
@@ -31,7 +37,7 @@ router.post('/', (req, res) => {
 
 // @route   POST /api/tournaments/join
 router.post('/join', (req, res) => {
-    const { userId, joinCode } = req.body;
+    const { userId, joinCode, userProfile } = req.body;
     const tournament = db.tournaments.find(t => t.joinCode === joinCode.toUpperCase());
     
     if (!tournament) {
@@ -46,8 +52,19 @@ router.post('/join', (req, res) => {
         return res.status(400).json({ msg: 'You have already joined this event' });
     }
     
-    const userObj = db.users.find(u => u._id === userId);
-    if(userObj) tournament.participants.push(userObj);
+    let userObj = db.users.find(u => u._id === userId);
+    
+    // If user not in current memory but profile is provided (Lazy Registration)
+    if (!userObj && userProfile) {
+        userObj = userProfile;
+        db.users.push(userObj);
+    }
+
+    if (userObj) {
+        tournament.participants.push(userObj);
+    } else {
+        return res.status(400).json({ msg: 'User profile missing. Please try logging out and in again.' });
+    }
 
     // AUTO-START LOGIC
     if (tournament.participants.length === tournament.maxPlayers) {

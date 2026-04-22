@@ -47,7 +47,8 @@ const Hub = () => {
             const res = await createTournament({
                 name: newEvent.name,
                 maxPlayers: newEvent.maxPlayers,
-                ownerId: profile._id
+                ownerId: profile._id,
+                ownerProfile: profile
             });
             // Redirect to the new event dashboard
             navigate(`/event/${res.data.joinCode}`);
@@ -63,7 +64,7 @@ const Hub = () => {
         if (!joinCode) return;
         setJoining(true);
         try {
-            const res = await joinTournament(joinCode, profile._id);
+            const res = await joinTournament(joinCode, profile._id, profile);
             navigate(`/event/${res.data.joinCode}`);
         } catch (err) {
             alert(err.response?.data?.msg || 'Failed to join tournament. Check the code.');
