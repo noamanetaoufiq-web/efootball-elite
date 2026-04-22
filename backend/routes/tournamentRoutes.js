@@ -9,7 +9,7 @@ const generateJoinCode = () => {
 
 // @route   POST /api/tournaments
 router.post('/', (req, res) => {
-    const { name, maxPlayers, ownerId, ownerProfile } = req.body;
+    const { name, maxPlayers, ownerId, ownerProfile, isOwnerPlaying } = req.body;
     const joinCode = generateJoinCode();
     
     // Auto-join owner and keep full user object ref
@@ -28,7 +28,7 @@ router.post('/', (req, res) => {
         owner: ownerId,
         joinCode,
         status: 'open',
-        participants: ownerObj ? [ownerObj] : [] 
+        participants: (ownerObj && isOwnerPlaying !== false) ? [ownerObj] : [] 
     };
     
     db.tournaments.push(tournament);

@@ -15,7 +15,8 @@ const Hub = () => {
     
     const [newEvent, setNewEvent] = useState({
         name: '',
-        maxPlayers: 4
+        maxPlayers: 4,
+        isOwnerPlaying: true
     });
 
     useEffect(() => {
@@ -48,7 +49,8 @@ const Hub = () => {
                 name: newEvent.name,
                 maxPlayers: newEvent.maxPlayers,
                 ownerId: profile._id,
-                ownerProfile: profile
+                ownerProfile: profile,
+                isOwnerPlaying: newEvent.isOwnerPlaying
             });
             // Redirect to the new event dashboard
             navigate(`/event/${res.data.joinCode}`);
@@ -134,6 +136,19 @@ const Hub = () => {
                                     <option key={num} value={num}>{num} Players</option>
                                 ))}
                             </select>
+                        </div>
+                        <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-white/5">
+                            <div className="flex flex-col">
+                                <span className="text-[10px] font-black text-white uppercase tracking-wider">Join as Player?</span>
+                                <span className="text-[8px] text-slate-500 uppercase font-bold tracking-widest mt-0.5">Participate in matches</span>
+                            </div>
+                            <button 
+                                type="button"
+                                onClick={() => setNewEvent({...newEvent, isOwnerPlaying: !newEvent.isOwnerPlaying})}
+                                className={`w-10 h-5 rounded-full relative transition-colors duration-200 focus:outline-none ${newEvent.isOwnerPlaying ? 'bg-ef-gold' : 'bg-slate-700'}`}
+                            >
+                                <div className={`absolute top-1 left-1 w-3 h-3 bg-white rounded-full transition-transform duration-200 ${newEvent.isOwnerPlaying ? 'translate-x-5' : ''}`}></div>
+                            </button>
                         </div>
                         <div className="mt-auto pt-6">
                             <button disabled={creating} className="w-full btn-primary flex items-center justify-center gap-2">
