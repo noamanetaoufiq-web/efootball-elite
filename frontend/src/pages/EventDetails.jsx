@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getTournamentByCode, getMatches, getStandings } from '../api';
+import { startTournament, getTournamentByCode, getMatches, getStandings } from '../api';
 import Leaderboard from '../components/Leaderboard';
 import MatchList from '../components/MatchList';
-import { Users, Copy, Check, ArrowLeft, Trophy, Activity } from 'lucide-react';
+import { Users, Copy, Check, ArrowLeft, Trophy, Activity, Play } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const EventDetails = () => {
@@ -17,6 +17,7 @@ const EventDetails = () => {
     const [loading, setLoading] = useState(true);
     const [activeTab, setActiveTab] = useState('standings');
     const [matchViewMode, setMatchViewMode] = useState('next'); // 'next' or 'all'
+    const [starting, setStarting] = useState(false);
 
     const fetchData = async () => {
         try {
@@ -131,6 +132,29 @@ const EventDetails = () => {
                                 );
                             })}
                         </div>
+
+                        {tournament.owner === profile?._id && tournament.participants.length >= 2 && (
+                            <button 
+                                onClick={async () => {
+                                    if (window.confirm(`Start tournament now with ${tournament.participants.length} players?`)) {
+                                        setStarting(true);
+                                        try {
+                                            await startTournament(tournament._id, profile._id);
+                                            fetchData();
+                                        } catch (err) {
+                                            alert(err.response?.data?.msg || 'Failed to start tournament');
+                                        } finally {
+                                            setStarting(false);
+                                        }
+                                    }
+                                }}
+                                disabled={starting}
+                                className="w-full mt-6 flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-white py-4 rounded-xl font-orbitron text-sm font-black uppercase tracking-widest hover:shadow-emerald-500/20 transition-all group"
+                            >
+                                <Play size={18} fill="currentColor" />
+                                {starting ? 'STARTING...' : 'START TOURNAMENT NOW'}
+                            </button>
+                        )}
                     </motion.div>
                 ) : (
                     <div className="space-y-8">

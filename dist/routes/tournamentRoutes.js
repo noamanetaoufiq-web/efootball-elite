@@ -7,6 +7,28 @@ const generateJoinCode = () => {
     return Math.random().toString(36).substring(2, 8).toUpperCase();
 };
 
+const startTournamentLogic = (tournament) => {
+    if (tournament.status !== 'open') return;
+    
+    tournament.status = 'active';
+    const players = tournament.participants;
+    
+    // Simple Round Robin pairing
+    for (let i = 0; i < players.length; i++) {
+        for (let j = i + 1; j < players.length; j++) {
+            db.matches.push({
+                _id: Date.now().toString() + Math.random(),
+                tournamentId: tournament._id,
+                player1: players[i],
+                player2: players[j],
+                score1: 0,
+                score2: 0,
+                status: 'pending'
+            });
+        }
+    }
+};
+
 // @route   POST /api/tournaments
 router.post('/', (req, res) => {
     const { name, maxPlayers, ownerId, ownerProfile, isOwnerPlaying } = req.body;
@@ -68,26 +90,7 @@ router.post('/join', (req, res) => {
 
     // AUTO-START LOGIC
     if (tournament.participants.length === tournament.maxPlayers) {
-        tournament.status = 'active';
-
-        const players = tournament.participants;
-        
-        // Simple Round Robin pairing
-        for (let i = 0; i < players.length; i++) {
-            for (let j = i + 1; j < players.length; j++) {
-                db.matches.push({
-                    _id: Date.now().toString() + Math.random(),
-                    tournamentId: tournament._id,
-                    player1: players[i],
-                    player2: players[j],
-                    score1: 0,
-                    score2: 0,
-                    status: 'pending'
-                });
-            }
-        }
-        
-        // Note: I am not shuffling here in mock DB just to keep it simple
+        startTournamentLogic(tournament);
     }
 
     res.json(tournament);
@@ -106,6 +109,19 @@ router.get('/user/:userId', (req, res) => {
 router.get('/:joinCode', (req, res) => {
     const tournament = db.tournaments.find(t => t.joinCode === req.params.joinCode.toUpperCase());
     if (!tournament) return res.status(404).json({ msg: 'Tournament not found' });
+    res.json(tournament);
+});
+
+// @route   POST /api/tournaments/start
+router.post('/start', (req, res) => {
+    const { tournamentId, userId } = req.body;
+    const tournament = db.tournaments.find(t => t._id === tournamentId);
+    
+    if (!tournament) return res.status(404).json({ msg: 'Tournament not found' });
+    if (tournament.owner !== userId) return res.status(403).json({ msg: 'Only the host can start the tournament' });
+    if (tournament.participants.length < 2) return res.status(400).json({ msg: 'At least 2 players are needed to start' });
+
+    startTournamentLogic(tournament);
     res.json(tournament);
 });
 
