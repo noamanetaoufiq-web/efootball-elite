@@ -60,12 +60,17 @@ const generateLogos = () => {
         { id: 190, name: "Benfica" },
         { id: 211, name: "FC Porto" },
         { id: 212, name: "Sporting CP" },
-        { id: 238, name: "Celtic FC" },
+        { id: 238, name: "Celtic FC", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Celtic_FC_crest.svg/1280px-Celtic_FC_crest.svg.png" },
         { id: 239, name: "Rangers FC" }
     ];
 
     europeTeams.forEach(t => {
-        logos.push({ id: idCounter++, name: t.name, logo: `https://media.api-sports.io/football/teams/${t.id}.png`, region: "Europe" });
+        logos.push({ 
+            id: idCounter++, 
+            name: t.name, 
+            logo: t.logo || `https://media.api-sports.io/football/teams/${t.id}.png`, 
+            region: "Europe" 
+        });
     });
 
     // Asia & Americas (Saudi, MLS, etc)
@@ -90,7 +95,12 @@ const generateLogos = () => {
     ];
 
     worldTeams.forEach(t => {
-        logos.push({ id: idCounter++, name: t.name, logo: `https://media.api-sports.io/football/teams/${t.id}.png`, region: t.region });
+        logos.push({ 
+            id: idCounter++, 
+            name: t.name, 
+            logo: t.logo || `https://media.api-sports.io/football/teams/${t.id}.png`, 
+            region: t.region 
+        });
     });
 
     // Generate remaining to hit 320+ (Generic/Fictional)
