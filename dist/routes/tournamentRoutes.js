@@ -100,7 +100,7 @@ router.post('/join', (req, res) => {
 router.get('/user/:userId', (req, res) => {
     const { userId } = req.params;
     const userTournaments = db.tournaments.filter(t => 
-        t.participants.some(p => p._id === userId)
+        t.owner === userId || t.participants.some(p => p._id === userId)
     );
     res.json(userTournaments);
 });
