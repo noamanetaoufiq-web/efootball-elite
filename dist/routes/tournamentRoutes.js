@@ -1,23 +1,27 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../utils/mockDb');
+const Tournament = require('../models/Tournament');
+const Match = require('../models/Match');
+const User = require('../models/User');
 
 // Helper to generate a random 6-character code
 const generateJoinCode = () => {
     return Math.random().toString(36).substring(2, 8).toUpperCase();
 };
 
-const startTournamentLogic = (tournament) => {
+const startTournamentLogic = async (tournament) => {
     if (tournament.status !== 'open') return;
     
     tournament.status = 'active';
+    await tournament.save();
+
     const players = tournament.participants;
     
     // Simple Round Robin pairing
+    const matches = [];
     for (let i = 0; i < players.length; i++) {
         for (let j = i + 1; j < players.length; j++) {
-            db.matches.push({
-                _id: Date.now().toString() + Math.random(),
+            matches.push({
                 tournamentId: tournament._id,
                 player1: players[i],
                 player2: players[j],
@@ -27,102 +31,112 @@ const startTournamentLogic = (tournament) => {
             });
         }
     }
+    if (matches.length > 0) {
+        await Match.insertMany(matches);
+    }
 };
 
 // @route   POST /api/tournaments
-router.post('/', (req, res) => {
-    const { name, maxPlayers, ownerId, ownerProfile, isOwnerPlaying } = req.body;
+router.post('/', async (req, res) => {
+    const { name, maxPlayers, ownerId, isOwnerPlaying } = req.body;
     const joinCode = generateJoinCode();
     
-    // Auto-join owner and keep full user object ref
-    let ownerObj = db.users.find(u => u._id === ownerId);
-
-    // Lazy registration for owner if missing from memory
-    if (!ownerObj && ownerProfile) {
-        ownerObj = ownerProfile;
-        db.users.push(ownerObj);
+    try {
+        const tournament = new Tournament({
+            name,
+            maxPlayers,
+            owner: ownerId,
+            joinCode,
+            status: 'open',
+            participants: isOwnerPlaying !== false ? [ownerId] : []
+        });
+        
+        await tournament.save();
+        res.json(tournament);
+    } catch (err) {
+        res.status(500).json({ msg: 'Server error' });
     }
-
-    const tournament = {
-        _id: Date.now().toString(),
-        name,
-        maxPlayers,
-        owner: ownerId,
-        joinCode,
-        status: 'open',
-        participants: (ownerObj && isOwnerPlaying !== false) ? [ownerObj] : [] 
-    };
-    
-    db.tournaments.push(tournament);
-    res.json(tournament);
 });
 
 // @route   POST /api/tournaments/join
-router.post('/join', (req, res) => {
-    const { userId, joinCode, userProfile } = req.body;
-    const tournament = db.tournaments.find(t => t.joinCode === joinCode.toUpperCase());
+router.post('/join', async (req, res) => {
+    const { userId, joinCode } = req.body;
     
-    if (!tournament) {
-        return res.status(404).json({ msg: 'Tournament not found. Check code.' });
-    }
-    
-    if (tournament.participants.length >= tournament.maxPlayers) {
-        return res.status(400).json({ msg: 'Tournament is already full' });
-    }
-    
-    if (tournament.participants.some(p => p._id === userId)) {
-        return res.status(400).json({ msg: 'You have already joined this event' });
-    }
-    
-    let userObj = db.users.find(u => u._id === userId);
-    
-    // If user not in current memory but profile is provided (Lazy Registration)
-    if (!userObj && userProfile) {
-        userObj = userProfile;
-        db.users.push(userObj);
-    }
+    try {
+        const tournament = await Tournament.findOne({ joinCode: joinCode.toUpperCase() });
+        
+        if (!tournament) {
+            return res.status(404).json({ msg: 'Tournament not found. Check code.' });
+        }
+        
+        if (tournament.participants.length >= tournament.maxPlayers) {
+            return res.status(400).json({ msg: 'Tournament is already full' });
+        }
+        
+        if (tournament.participants.includes(userId)) {
+            return res.status(400).json({ msg: 'You have already joined this event' });
+        }
+        
+        tournament.participants.push(userId);
+        
+        // AUTO-START LOGIC
+        if (tournament.participants.length === tournament.maxPlayers) {
+            await startTournamentLogic(tournament);
+        } else {
+            await tournament.save();
+        }
 
-    if (userObj) {
-        tournament.participants.push(userObj);
-    } else {
-        return res.status(400).json({ msg: 'User profile missing. Please try logging out and in again.' });
+        res.json(tournament);
+    } catch (err) {
+        res.status(500).json({ msg: 'Server error' });
     }
-
-    // AUTO-START LOGIC
-    if (tournament.participants.length === tournament.maxPlayers) {
-        startTournamentLogic(tournament);
-    }
-
-    res.json(tournament);
 });
 
 // @route   GET /api/tournaments/user/:userId
-router.get('/user/:userId', (req, res) => {
+router.get('/user/:userId', async (req, res) => {
     const { userId } = req.params;
-    const userTournaments = db.tournaments.filter(t => 
-        t.owner === userId || t.participants.some(p => p._id === userId)
-    );
-    res.json(userTournaments);
+    try {
+        // Find tournaments where user is owner or participant
+        const userTournaments = await Tournament.find({
+            $or: [
+                { owner: userId },
+                { participants: userId }
+            ]
+        }).populate('participants').populate('owner');
+        res.json(userTournaments);
+    } catch (err) {
+        res.status(500).json({ msg: 'Server error' });
+    }
 });
 
 // @route   GET /api/tournaments/:joinCode
-router.get('/:joinCode', (req, res) => {
-    const tournament = db.tournaments.find(t => t.joinCode === req.params.joinCode.toUpperCase());
-    if (!tournament) return res.status(404).json({ msg: 'Tournament not found' });
-    res.json(tournament);
+router.get('/:joinCode', async (req, res) => {
+    try {
+        const tournament = await Tournament.findOne({ joinCode: req.params.joinCode.toUpperCase() })
+            .populate('participants')
+            .populate('owner');
+        if (!tournament) return res.status(404).json({ msg: 'Tournament not found' });
+        res.json(tournament);
+    } catch (err) {
+        res.status(500).json({ msg: 'Server error' });
+    }
 });
 
 // @route   POST /api/tournaments/start
-router.post('/start', (req, res) => {
+router.post('/start', async (req, res) => {
     const { tournamentId, userId } = req.body;
-    const tournament = db.tournaments.find(t => t._id === tournamentId);
-    
-    if (!tournament) return res.status(404).json({ msg: 'Tournament not found' });
-    if (tournament.owner !== userId) return res.status(403).json({ msg: 'Only the host can start the tournament' });
-    if (tournament.participants.length < 2) return res.status(400).json({ msg: 'At least 2 players are needed to start' });
+    try {
+        const tournament = await Tournament.findById(tournamentId);
+        
+        if (!tournament) return res.status(404).json({ msg: 'Tournament not found' });
+        if (tournament.owner.toString() !== userId) return res.status(403).json({ msg: 'Only the host can start the tournament' });
+        if (tournament.participants.length < 2) return res.status(400).json({ msg: 'At least 2 players are needed to start' });
 
-    startTournamentLogic(tournament);
-    res.json(tournament);
+        await startTournamentLogic(tournament);
+        res.json(tournament);
+    } catch (err) {
+        res.status(500).json({ msg: 'Server error' });
+    }
 });
 
 module.exports = router;

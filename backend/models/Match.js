@@ -6,8 +6,8 @@ const MatchSchema = new mongoose.Schema({
     player2: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
     score1: { type: Number, default: 0 },
     score2: { type: Number, default: 0 },
-    status: { type: String, enum: ['pending', 'completed'], default: 'pending' },
-    playedAt: { type: Date }
+    status: { type: String, enum: ['pending', 'finished'], default: 'pending' },
+    createdAt: { type: Date, default: Date.now }
 });
 
 module.exports = mongoose.model('Match', MatchSchema);

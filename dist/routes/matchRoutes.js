@@ -1,27 +1,36 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../utils/mockDb');
+const Match = require('../models/Match');
 const { calculateStandings } = require('../utils/rankingEngine');
 
 // @route   PUT /api/matches/:id
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
     const { score1, score2 } = req.body;
-    const match = db.matches.find(m => m._id === req.params.id);
-    
-    if (!match) return res.status(404).json({ msg: 'Match not found' });
-    
-    match.score1 = score1;
-    match.score2 = score2;
-    match.status = 'completed';
-    match.playedAt = Date.now();
-    
-    res.json(match);
+    try {
+        const match = await Match.findById(req.params.id);
+        if (!match) return res.status(404).json({ msg: 'Match not found' });
+        
+        match.score1 = score1;
+        match.score2 = score2;
+        match.status = 'finished';
+        
+        await match.save();
+        res.json(match);
+    } catch (err) {
+        res.status(500).json({ msg: 'Server error' });
+    }
 });
 
 // @route   GET /api/matches/tournament/:id
-router.get('/tournament/:id', (req, res) => {
-    const matches = db.matches.filter(m => m.tournamentId === req.params.id);
-    res.json(matches);
+router.get('/tournament/:id', async (req, res) => {
+    try {
+        const matches = await Match.find({ tournamentId: req.params.id })
+            .populate('player1')
+            .populate('player2');
+        res.json(matches);
+    } catch (err) {
+        res.status(500).json({ msg: 'Server error' });
+    }
 });
 
 // @route   GET /api/matches/tournament/:id/standings

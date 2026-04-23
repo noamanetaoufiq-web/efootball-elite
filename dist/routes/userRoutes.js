@@ -1,32 +1,33 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../utils/mockDb');
+const User = require('../models/User');
 
 // @route   POST /api/users/register
-router.post('/register', (req, res) => {
+router.post('/register', async (req, res) => {
     const { name, efootballId, teamName, teamLogo } = req.body;
     
-    // Check if user exists in mock array
-    const existing = db.users.find(u => u.efootballId === efootballId);
-    if (existing) {
-        return res.status(400).json({ msg: 'Player with this eFootball ID already exists' });
+    try {
+        // Upsert user: Update if exists by efootballId, otherwise create
+        const user = await User.findOneAndUpdate(
+            { efootballId },
+            { name, teamName, teamLogo },
+            { new: true, upsert: true }
+        );
+        res.json(user);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ msg: 'Server error during registration' });
     }
-
-    const user = {
-        _id: Date.now().toString(),
-        name,
-        efootballId,
-        teamName,
-        teamLogo
-    };
-
-    db.users.push(user);
-    res.json(user);
 });
 
 // @route   GET /api/users
-router.get('/', (req, res) => {
-    res.json(db.users);
+router.get('/', async (req, res) => {
+    try {
+        const users = await User.find();
+        res.json(users);
+    } catch (err) {
+        res.status(500).json({ msg: 'Server error' });
+    }
 });
 
 module.exports = router;

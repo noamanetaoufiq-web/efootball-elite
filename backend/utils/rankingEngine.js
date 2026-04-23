@@ -1,22 +1,21 @@
-const db = require('./mockDb');
+const Tournament = require('../models/Tournament');
+const Match = require('../models/Match');
 
 const calculateStandings = async (tournamentId) => {
-    const matches = db.matches.filter(m => m.tournamentId === tournamentId && m.status === 'completed');
-    
-    // Unique participants from the tournament
-    const tournament = db.tournaments.find(t => t._id === tournamentId);
+    const tournament = await Tournament.findById(tournamentId).populate('participants');
     if (!tournament) return [];
-    
-    const uniqueParticipants = tournament.participants.map(p => p._id);
+
+    const matches = await Match.find({ 
+        tournamentId, 
+        status: 'finished' 
+    }).populate('player1').populate('player2');
     
     const standings = {};
     
-    // Initialize
-    for (const userId of uniqueParticipants) {
-        const user = db.users.find(u => u._id === userId);
-        if (!user) continue;
-        standings[userId] = {
-            userId,
+    // Initialize with all participants
+    tournament.participants.forEach(user => {
+        standings[user._id] = {
+            userId: user._id,
             name: user.name,
             teamName: user.teamName,
             teamLogo: user.teamLogo,
@@ -29,37 +28,37 @@ const calculateStandings = async (tournamentId) => {
             goalDifference: 0,
             points: 0
         };
-    }
+    });
     
     // Process matches
     matches.forEach(match => {
-        const p1 = match.player1._id;
-        const p2 = match.player2._id;
+        const p1Id = match.player1._id.toString();
+        const p2Id = match.player2._id.toString();
         
-        if (!standings[p1] || !standings[p2]) return;
+        if (!standings[p1Id] || !standings[p2Id]) return;
 
-        standings[p1].played++;
-        standings[p2].played++;
+        standings[p1Id].played++;
+        standings[p2Id].played++;
         
-        standings[p1].goalsFor += match.score1;
-        standings[p1].goalsAgainst += match.score2;
+        standings[p1Id].goalsFor += match.score1;
+        standings[p1Id].goalsAgainst += match.score2;
         
-        standings[p2].goalsFor += match.score2;
-        standings[p2].goalsAgainst += match.score1;
+        standings[p2Id].goalsFor += match.score2;
+        standings[p2Id].goalsAgainst += match.score1;
         
         if (match.score1 > match.score2) {
-            standings[p1].won++;
-            standings[p1].points += 3;
-            standings[p2].lost++;
+            standings[p1Id].won++;
+            standings[p1Id].points += 3;
+            standings[p2Id].lost++;
         } else if (match.score1 < match.score2) {
-            standings[p2].won++;
-            standings[p2].points += 3;
-            standings[p1].lost++;
+            standings[p2Id].won++;
+            standings[p2Id].points += 3;
+            standings[p1Id].lost++;
         } else {
-            standings[p1].drawn++;
-            standings[p1].points += 1;
-            standings[p2].drawn++;
-            standings[p2].points += 1;
+            standings[p1Id].drawn++;
+            standings[p1Id].points += 1;
+            standings[p2Id].drawn++;
+            standings[p2Id].points += 1;
         }
     });
     
