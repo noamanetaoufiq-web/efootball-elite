@@ -20,13 +20,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Use app.use to catch all other routes to avoid Express 5 path-to-regexp wildcard error
 app.use((req, res) => {
+    console.log(`Request received: ${req.method} ${req.url}`);
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 });
 
 // Connect to Database and Start Server
 connectDB().then(() => {
     const PORT = process.env.PORT || 5000;
-    app.listen(PORT, '0.0.0.0', () => {
-        console.log(`Server running on port ${PORT}`);
+    app.listen(PORT, () => {
+        console.log(`Server started on port ${PORT}`);
     });
 });
