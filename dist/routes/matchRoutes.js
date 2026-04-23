@@ -15,6 +15,31 @@ router.put('/:id', async (req, res) => {
         match.status = 'finished';
         
         await match.save();
+
+        // AUTO-FINAL LOGIC
+        if (match.type === 'knockout' && match.stageLabel === 'Semi-Final') {
+            const allSemis = await Match.find({ 
+                tournamentId: match.tournamentId, 
+                stageLabel: 'Semi-Final' 
+            });
+
+            if (allSemis.every(m => m.status === 'finished')) {
+                // Both semis done, create final
+                const winners = allSemis.map(m => {
+                    return m.score1 > m.score2 ? m.player1 : m.player2;
+                });
+
+                const finalMatch = new Match({
+                    tournamentId: match.tournamentId,
+                    player1: winners[0],
+                    player2: winners[1],
+                    type: 'knockout',
+                    stageLabel: 'Final'
+                });
+                await finalMatch.save();
+            }
+        }
+
         res.json(match);
     } catch (err) {
         res.status(500).json({ msg: 'Server error' });

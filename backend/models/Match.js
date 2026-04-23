@@ -7,6 +7,8 @@ const MatchSchema = new mongoose.Schema({
     score1: { type: Number, default: 0 },
     score2: { type: Number, default: 0 },
     status: { type: String, enum: ['pending', 'finished'], default: 'pending' },
+    type: { type: String, enum: ['league', 'knockout'], default: 'league' },
+    stageLabel: { type: String, default: 'League' }, // e.g. "Semi-Final", "Final"
     createdAt: { type: Date, default: Date.now }
 });
 

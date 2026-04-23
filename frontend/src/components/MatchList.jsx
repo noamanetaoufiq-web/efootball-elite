@@ -35,7 +35,7 @@ const MatchList = ({ matches, onMatchUpdated, isOwner, showOnlyNext }) => {
         return (
             <div className="py-20 flex flex-col items-center justify-center glass-panel opacity-50 bg-ef-pitch/5 border-ef-pitch-light">
                 <Check size={48} className="mb-4 text-ef-pitch-light" />
-                <p className="font-orbitron text-[10px] tracking-widest uppercase text-slate-400">All matches completed</p>
+                <p className="font-orbitron text-[10px] tracking-widest uppercase text-slate-400">All matches finished</p>
             </div>
         );
     }
@@ -49,15 +49,15 @@ const MatchList = ({ matches, onMatchUpdated, isOwner, showOnlyNext }) => {
                     transition={{ delay: idx * 0.03 }}
                     key={match._id}
                     className={`glass-card p-5 border-l-4 transition-all ${
-                        match.status === 'completed' ? 'border-ef-pitch-light opacity-80' : 'border-ef-gold shadow-ef-gold'
+                        match.status === 'finished' ? 'border-ef-pitch-light opacity-80' : 'border-ef-gold shadow-ef-gold'
                     }`}
                 >
                     <div className="flex justify-between items-center mb-6">
                         <span className="text-[9px] font-orbitron tracking-widest text-ef-gold uppercase font-bold">
-                            Matchday {idx + 1}
+                            {match.stageLabel || `Matchday ${idx + 1}`}
                         </span>
                         <div className={`px-2 py-0.5 rounded text-[8px] font-black tracking-widest uppercase ${
-                            match.status === 'completed' ? 'bg-ef-pitch/20 text-ef-pitch-light' : 'bg-ef-gold/20 text-ef-gold'
+                            match.status === 'finished' ? 'bg-ef-pitch/20 text-ef-pitch-light' : 'bg-ef-gold/20 text-ef-gold'
                         }`}>
                             {match.status}
                         </div>
@@ -90,12 +90,12 @@ const MatchList = ({ matches, onMatchUpdated, isOwner, showOnlyNext }) => {
                                 </div>
                             ) : (
                                 <div className="flex items-center gap-4 py-2 px-6 bg-ef-navy rounded-full border border-white/5 shadow-inner">
-                                    <span className={`text-2xl font-black font-mono tracking-tighter ${match.status === 'completed' ? 'text-white' : 'text-slate-600'}`}>
-                                        {match.status === 'completed' ? match.score1 : '-'}
+                                    <span className={`text-2xl font-black font-mono tracking-tighter ${match.status === 'finished' ? 'text-white' : 'text-slate-600'}`}>
+                                        {match.status === 'finished' ? match.score1 : '-'}
                                     </span>
                                     <div className="w-4 h-px bg-slate-600"></div>
-                                    <span className={`text-2xl font-black font-mono tracking-tighter ${match.status === 'completed' ? 'text-white' : 'text-slate-600'}`}>
-                                        {match.status === 'completed' ? match.score2 : '-'}
+                                    <span className={`text-2xl font-black font-mono tracking-tighter ${match.status === 'finished' ? 'text-white' : 'text-slate-600'}`}>
+                                        {match.status === 'finished' ? match.score2 : '-'}
                                     </span>
                                 </div>
                             )}

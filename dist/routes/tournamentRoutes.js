@@ -122,6 +122,8 @@ router.get('/:joinCode', async (req, res) => {
     }
 });
 
+const { calculateStandings } = require('../utils/rankingEngine');
+
 // @route   POST /api/tournaments/start
 router.post('/start', async (req, res) => {
     const { tournamentId, userId } = req.body;
@@ -136,6 +138,50 @@ router.post('/start', async (req, res) => {
         res.json(tournament);
     } catch (err) {
         res.status(500).json({ msg: 'Server error' });
+    }
+});
+
+// @route   POST /api/tournaments/:id/advance
+router.post('/:id/advance', async (req, res) => {
+    const { userId } = req.body;
+    try {
+        const tournament = await Tournament.findById(req.params.id);
+        if (!tournament) return res.status(404).json({ msg: 'Tournament not found' });
+        if (tournament.owner.toString() !== userId) return res.status(403).json({ msg: 'Only host can advance' });
+
+        const standings = await calculateStandings(tournament._id);
+        if (standings.length < 4) return res.status(400).json({ msg: 'Need at least 4 players for knockout' });
+
+        // Select top 4
+        const top4 = standings.slice(0, 4);
+
+        // Generate Semi-Finals: 1v4, 2v3
+        const semiMatches = [
+            {
+                tournamentId: tournament._id,
+                player1: top4[0].userId,
+                player2: top4[3].userId,
+                type: 'knockout',
+                stageLabel: 'Semi-Final'
+            },
+            {
+                tournamentId: tournament._id,
+                player1: top4[1].userId,
+                player2: top4[2].userId,
+                type: 'knockout',
+                stageLabel: 'Semi-Final'
+            }
+        ];
+
+        await Match.insertMany(semiMatches);
+        tournament.stage = 'knockout';
+        tournament.knockoutActive = true;
+        await tournament.save();
+
+        res.json(tournament);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ msg: 'Server error advancing to knockout' });
     }
 });
 

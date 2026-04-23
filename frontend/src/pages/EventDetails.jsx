@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { startTournament, getTournamentByCode, getMatches, getStandings } from '../api';
+import { startTournament, getTournamentByCode, getMatches, getStandings, advanceToKnockout } from '../api';
 import Leaderboard from '../components/Leaderboard';
 import MatchList from '../components/MatchList';
-import { Users, Copy, Check, ArrowLeft, Trophy, Activity, Play } from 'lucide-react';
+import KnockoutBracket from '../components/KnockoutBracket';
+import { Users, Copy, Check, ArrowLeft, Trophy, Activity, Play, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const EventDetails = () => {
@@ -18,6 +19,7 @@ const EventDetails = () => {
     const [activeTab, setActiveTab] = useState('standings');
     const [matchViewMode, setMatchViewMode] = useState('next'); // 'next' or 'all'
     const [starting, setStarting] = useState(false);
+    const [advancing, setAdvancing] = useState(false);
 
     const fetchData = async () => {
         try {
@@ -32,10 +34,14 @@ const EventDetails = () => {
                 ]);
                 setStandings(standingsRes.data);
                 setMatches(matchesRes.data);
+                
+                // Switch to knockout tab if active
+                if (t.stage === 'knockout' && activeTab === 'standings') {
+                    setActiveTab('knockout');
+                }
             }
         } catch (err) {
             console.error('Error fetching event', err);
-            // If tournament doesn't exist, go to hub
             if (err.response?.status === 404) navigate('/hub');
         } finally {
             setLoading(false);
@@ -51,7 +57,7 @@ const EventDetails = () => {
         }
 
         fetchData();
-        const interval = setInterval(fetchData, 5000); // Poll for updates (e.g. someone joining or scores updated)
+        const interval = setInterval(fetchData, 5000);
         return () => clearInterval(interval);
     }, [joinCode, navigate]);
 
@@ -59,6 +65,20 @@ const EventDetails = () => {
         navigator.clipboard.writeText(joinCode);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
+    };
+
+    const handleAdvance = async () => {
+        if (!window.confirm("Start Knockout Stage with Top 4? This will end the league phase.")) return;
+        setAdvancing(true);
+        try {
+            await advanceToKnockout(tournament._id, profile._id);
+            setActiveTab('knockout');
+            fetchData();
+        } catch (err) {
+            alert(err.response?.data?.msg || "Failed to advance");
+        } finally {
+            setAdvancing(false);
+        }
     };
 
     if (loading || !profile) return (
@@ -73,7 +93,6 @@ const EventDetails = () => {
         <div className="min-h-screen bg-ef-dark pb-20 selection:bg-ef-gold/30">
             <div className="absolute inset-0 pitch-pattern opacity-10 pointer-events-none"></div>
 
-            {/* Top Navigation */}
             <nav className="sticky top-0 z-50 bg-ef-dark/80 backdrop-blur-xl border-b border-white/5 py-4 px-6 flex justify-between items-center">
                 <div className="flex items-center gap-4">
                     <button onClick={() => navigate('/hub')} className="p-2 bg-white/5 rounded-lg hover:bg-white/10 transition-colors">
@@ -84,7 +103,7 @@ const EventDetails = () => {
                         <div className="flex items-center gap-2">
                             <span className={`h-1.5 w-1.5 rounded-full ${tournament?.status === 'open' ? 'bg-ef-gold animate-pulse' : 'bg-ef-pitch-light'}`}></span>
                             <span className="text-[9px] text-slate-400 font-orbitron tracking-widest uppercase">
-                                {tournament?.status === 'open' ? 'Waiting for players' : 'Tournament Live'}
+                                {tournament?.status === 'open' ? 'Waiting for players' : `Stage: ${tournament?.stage?.toUpperCase()}`}
                             </span>
                         </div>
                     </div>
@@ -158,7 +177,7 @@ const EventDetails = () => {
                     </motion.div>
                 ) : (
                     <div className="space-y-8">
-                        <div className="glass-panel p-2 flex gap-2 mb-4 bg-ef-dark/50 backdrop-blur-md sticky top-20 z-40 max-w-sm mx-auto">
+                        <div className="glass-panel p-2 flex gap-2 mb-4 bg-ef-dark/50 backdrop-blur-md sticky top-20 z-40 max-w-md mx-auto">
                             <button 
                                 onClick={() => setActiveTab('standings')}
                                 className={`flex-1 flex items-center justify-center gap-2 py-3 rounded-xl font-orbitron text-[10px] tracking-widest transition-all ${
@@ -175,7 +194,30 @@ const EventDetails = () => {
                             >
                                 <Activity size={14} /> MATCHES
                             </button>
+                            {(tournament.stage === 'knockout' || (isOwner && standings.length >= 4)) && (
+                                <button 
+                                    onClick={() => setActiveTab('knockout')}
+                                    className={`flex-1 flex items-center justify-center gap-2 py-3 rounded-xl font-orbitron text-[10px] tracking-widest transition-all ${
+                                        activeTab === 'knockout' ? 'bg-red-600 text-white font-black' : 'text-slate-400 hover:text-white'
+                                    }`}
+                                >
+                                    <Zap size={14} /> BRACKET
+                                </button>
+                            )}
                         </div>
+
+                        {activeTab === 'standings' && isOwner && tournament.stage === 'league' && standings.length >= 4 && (
+                            <div className="flex justify-center mb-8">
+                                <button 
+                                    onClick={handleAdvance}
+                                    disabled={advancing}
+                                    className="flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-2xl font-orbitron text-xs font-black tracking-widest shadow-xl shadow-red-900/20 transition-all border border-red-500/50"
+                                >
+                                    <Zap size={18} fill="white" />
+                                    {advancing ? 'GENERATING BRACKET...' : 'ADVANCE TO KNOCKOUT STAGE'}
+                                </button>
+                            </div>
+                        )}
 
                         {activeTab === 'matches' && (
                             <div className="flex justify-center gap-4 mb-6">
@@ -206,9 +248,11 @@ const EventDetails = () => {
                         >
                             {activeTab === 'standings' ? (
                                 <Leaderboard standings={standings} />
+                            ) : activeTab === 'knockout' ? (
+                                <KnockoutBracket matches={matches.filter(m => m.type === 'knockout')} />
                             ) : (
                                 <MatchList 
-                                    matches={matches} 
+                                    matches={matches.filter(m => tournament.stage === 'knockout' ? m.type === 'knockout' : m.type === 'league')} 
                                     onMatchUpdated={fetchData} 
                                     isOwner={isOwner}
                                     showOnlyNext={matchViewMode === 'next'}
