@@ -24,8 +24,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Catch-all for SPA
-app.get('(.*)', (req, res) => {
+// Catch-all for SPA (Express 5 compatible middleware)
+app.use((req, res) => {
+    console.log(`Catch-all hit for: ${req.url}`);
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
